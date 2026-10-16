@@ -1,0 +1,247 @@
+{
+  "schemaVersion": "0.1",
+  "status": "3d-pilot-implemented",
+  "hyper3dGenerationAuthorized": true,
+  "scope": {
+    "k": 3,
+    "windowHours": 48,
+    "platform": "desktop-web",
+    "hostAvatar": "UI-only"
+  },
+  "concepts": [
+    {
+      "id": "lineup",
+      "path": "concepts/01-lineup-v01.png",
+      "status": "review"
+    },
+    {
+      "id": "sichuan_owner",
+      "path": "concepts/02-sichuan-turnaround-v02.png",
+      "status": "review"
+    },
+    {
+      "id": "cantonese_owner",
+      "path": "concepts/03-cantonese-turnaround-v01.png",
+      "status": "review"
+    },
+    {
+      "id": "french_chef",
+      "path": "concepts/04-french-turnaround-v01.png",
+      "status": "review"
+    }
+  ],
+  "actors": [
+    {
+      "id": "sichuan_owner",
+      "role": "四川餐馆老板娘",
+      "themeColor": "#B94F45",
+      "signature": "signature",
+      "modelUrl": "/models/sichuan_owner.glb",
+      "rigStatus": "weighted-pilot-exported",
+      "stageSlot": "left",
+      "measured": {
+        "id": "sichuan_owner",
+        "bytes": 8195672,
+        "triangles": 35232,
+        "vertices": 20056,
+        "skinJoints": 22,
+        "clipCount": 11,
+        "morphCount": 7,
+        "maxMorphDisplacementMeters": 0.03281140327453613,
+        "maxWeightSumError": 2.9802322387695312e-08
+      },
+      "blendSource": "source/sichuan_owner-rigged.blend",
+      "headAnchor": [
+        0,
+        1.87,
+        0
+      ]
+    },
+    {
+      "id": "cantonese_owner",
+      "role": "粤菜馆老板",
+      "themeColor": "#447D6B",
+      "signature": "signature",
+      "modelUrl": "/models/cantonese_owner.glb",
+      "rigStatus": "weighted-pilot-exported",
+      "stageSlot": "center",
+      "measured": {
+        "id": "cantonese_owner",
+        "bytes": 8848068,
+        "triangles": 34277,
+        "vertices": 19609,
+        "skinJoints": 22,
+        "clipCount": 11,
+        "morphCount": 7,
+        "maxMorphDisplacementMeters": 0.03274965286254883,
+        "maxWeightSumError": 2.9802322387695312e-08
+      },
+      "blendSource": "source/cantonese_owner-rigged.blend",
+      "headAnchor": [
+        0,
+        1.87,
+        0
+      ]
+    },
+    {
+      "id": "french_chef",
+      "role": "法式餐馆厨师长",
+      "themeColor": "#75628E",
+      "signature": "signature",
+      "modelUrl": "/models/french_chef.glb",
+      "rigStatus": "weighted-pilot-exported",
+      "stageSlot": "right",
+      "measured": {
+        "id": "french_chef",
+        "bytes": 9410208,
+        "triangles": 36094,
+        "vertices": 19716,
+        "skinJoints": 22,
+        "clipCount": 11,
+        "morphCount": 7,
+        "maxMorphDisplacementMeters": 0.0214998722076416,
+        "maxWeightSumError": 2.9802322387695312e-08
+      },
+      "blendSource": "source/french_chef-rigged.blend",
+      "headAnchor": [
+        0,
+        1.87,
+        0
+      ]
+    }
+  ],
+  "sharedBodyClips": [
+    "idle",
+    "run",
+    "arrive",
+    "wave",
+    "present",
+    "point",
+    "nod",
+    "disagree",
+    "recoil",
+    "celebrate"
+  ],
+  "signatureClips": [
+    "signature (one per actor)"
+  ],
+  "expressionPresetsP0": [
+    "neutral",
+    "welcome",
+    "confident",
+    "curious",
+    "skeptical",
+    "surprised",
+    "embarrassed",
+    "delighted"
+  ],
+  "expressionPresetsP1": [
+    "thoughtful",
+    "amused",
+    "conceding",
+    "disappointed"
+  ],
+  "visemes": [
+    "rest",
+    "MBP",
+    "A",
+    "EI",
+    "O",
+    "UW",
+    "FV",
+    "L"
+  ],
+  "runtimeEffects": [
+    "spawn-reveal",
+    "path-move",
+    "speaker-focus",
+    "bubble-in",
+    "bubble-out",
+    "selection-emphasis"
+  ],
+  "proceduralFaceControllers": [
+    "blink",
+    "gaze"
+  ],
+  "counting": {
+    "authoredSharedBodyTypes": 10,
+    "uniqueSignatureTypes": 3,
+    "plannedExportedClipInstances": 33,
+    "expressionPresetsPerActor": 8,
+    "visemeStatesIncludingRest": 8
+  },
+  "rigPlan": {
+    "baseExportJointCountIncludingRoot": 22,
+    "maxExportJointCount": 32,
+    "pose": "A-pose",
+    "inPlaceLocomotion": true,
+    "sourceUp": "Z",
+    "gltfUp": "Y",
+    "gltfForward": "+Z",
+    "rootOrigin": "foot-center",
+    "deformRigVerified": true,
+    "verificationScope": "GLB structural checks; Blender idle/wave/run images; browser loading/action tests. Full production rig acceptance pending."
+  },
+  "budgets": {
+    "status": "targets-not-yet-met-see-measured-per-actor",
+    "trianglesPerActor": [
+      15000,
+      25000
+    ],
+    "trianglesScene": [
+      20000,
+      40000
+    ],
+    "materialSlotsPerActor": [
+      2,
+      4
+    ],
+    "textureSizePx": [
+      1024,
+      2048
+    ],
+    "compressedMBPerActor": [
+      3,
+      6
+    ],
+    "totalCoreMB": 25,
+    "targetAverageFPS": 60,
+    "minimumUsableFPS": 30,
+    "frameTimeP95TargetMs": 25
+  },
+  "approvalGate": {
+    "required": [
+      "visual-direction",
+      "identity-per-character",
+      "costume",
+      "proportions",
+      "expression-amplitude"
+    ],
+    "nextAfterApproval": "review generated pilot; then topology, face rig and weight refinement",
+    "status": "pilot-generation-authorized-by-latest-user-message"
+  },
+  "sources": [
+    "https://docs.hyper3d.ai/en/api-specification/rodin-gen2-5",
+    "https://threejs.org/docs/pages/AnimationMixer.html",
+    "https://threejs.org/docs/pages/GLTFLoader.html",
+    "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-speech-synthesis-viseme"
+  ],
+  "authorizationEvidence": "User: 请使用hyper3d，接入3d资产的生成和驱动流程。",
+  "visualApproval": "No separate final visual approval recorded; latest user instruction authorizes pilot generation.",
+  "facialImplementation": {
+    "morphTargets": [
+      "MouthOpen",
+      "Smile",
+      "Frown",
+      "BrowUp",
+      "BrowDown",
+      "BlinkLeft",
+      "BlinkRight"
+    ],
+    "quality": "approximate-surface-deformation",
+    "visemes": "single-opening-key approximation",
+    "eyeGaze": "body-turn only"
+  },
+  "entrypoint": "http://127.0.0.1:5273/",
+  "implementationDocs": "../../avatar-lab/INTEGRATION.md"
+}

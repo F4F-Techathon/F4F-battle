@@ -1,0 +1,17 @@
+{
+  "asset": "restaurant-street-high",
+  "generationId": "b9a60aa8-9198-48dc-9060-f50ec68effbb",
+  "status": "rejected-visual-mismatch",
+  "displayUrl": "https://hyper3d.ai/workspace/rodin/b9a60aa8-9198-48dc-9060-f50ec68effbb",
+  "tier": "Gen-2.5-High",
+  "meshMode": "Raw",
+  "qualityOverride": 180000,
+  "textureDelight": true,
+  "geometryFileFormat": "glb",
+  "localFile": "../../source/street-rejected-v1.glb",
+  "bytes": 14788268,
+  "triangles": 180000,
+  "vertices": 129032,
+  "authorization": "User: 而且我需要你帮我生成高精度街道3d资产，借助hyper3d。",
+  "prompt": "One complete high-detail stylized restaurant street environment, no people. Premium hand-crafted 3D game diorama, warm matte materials, coherent human scale. U-shaped pedestrian street block with three distinct restaurant facades around a broad unobstructed central stone-paved plaza: red Sichuan eatery with wooden lattice windows and red lanterns on left, jade-green Cantonese teahouse with tiled eaves and delicate woodwork in back center, navy and cream French bistro with arched windows and burgundy awning on right. Rich modeled detail: individual pavers, curb stones, rain gutters, doors, window frames, roof tiles, exterior trim, brass wall lamps, benches, planter boxes, small leafy trees and street lamps. Two story buildings, separate visible entrances toward plaza. Front center open for camera and animated characters. Blank signboards without letters. High-quality PBR textures, clean grounded geometry, no baked cast shadows, no sky dome, no enclosing background, no floor outside the street block."
+}

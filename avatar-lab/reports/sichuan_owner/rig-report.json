@@ -1,0 +1,51 @@
+{
+  "actorId": "sichuan_owner",
+  "height": 1.7,
+  "joints": 22,
+  "clips": {
+    "idle": 3.0,
+    "run": 0.8,
+    "arrive": 0.9,
+    "wave": 2.0,
+    "present": 2.4,
+    "point": 1.6,
+    "nod": 1.3,
+    "disagree": 1.6,
+    "recoil": 1.2,
+    "celebrate": 2.2,
+    "signature": 2.6
+  },
+  "landmarks": {
+    "hip": 0.66,
+    "knee": 0.35,
+    "ankle": 0.08,
+    "shoulder": 1.1,
+    "elbow": 0.89,
+    "wrist": 0.72,
+    "neck": 1.19,
+    "head": 1.25,
+    "face": 1.31,
+    "eyes": 1.39,
+    "brow": 1.44,
+    "legx": 0.13,
+    "kneex": 0.18,
+    "anklex": 0.23,
+    "armx": 0.17,
+    "elbowx": 0.29,
+    "wristx": 0.37
+  },
+  "morphTargets": [
+    "MouthOpen",
+    "Smile",
+    "Frown",
+    "BrowUp",
+    "BrowDown",
+    "BlinkLeft",
+    "BlinkRight"
+  ],
+  "facialQuality": "Approximate surface deformation. No mouth cavity, teeth, phoneme-specific blendshapes or eye rig.",
+  "weighting": "Anatomical region fallback; review required for extreme poses.",
+  "vertices": 20056,
+  "triangles": 35232,
+  "glbBytes": 8195672
+}

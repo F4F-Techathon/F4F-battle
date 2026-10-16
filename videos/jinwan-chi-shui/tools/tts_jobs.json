@@ -1,0 +1,86 @@
+[
+ {
+  "text": "晚上好！今晚想吃点什么？说个感觉就行。",
+  "voice": "zf_xiaobei",
+  "speed": 1,
+  "out": "../assets/voice/raw_O1.wav"
+ },
+ {
+  "text": "收到！两个人，有氛围，三公里内。我挑了三家，让他们自己来说！",
+  "voice": "zf_xiaobei",
+  "speed": 1.02,
+  "out": "../assets/voice/raw_O2.wav"
+ },
+ {
+  "text": "来我屋头嘛！正宗川菜，麻辣鲜香，人均才八十五！",
+  "voice": "zf_xiaoyi",
+  "speed": 1.06,
+  "out": "../assets/voice/raw_R1.wav"
+ },
+ {
+  "text": "辣到嘴都肿咯，还怎么约会？来饮早茶，靓汤煲足四个钟。",
+  "voice": "zm_yunjian",
+  "speed": 0.96,
+  "out": "../assets/voice/raw_H1.wav"
+ },
+ {
+  "text": "四个钟？等你汤好，人都饿晕咯！",
+  "voice": "zf_xiaoyi",
+  "speed": 1.1,
+  "out": "../assets/voice/raw_R2.wav"
+ },
+ {
+  "text": "你们太吵了。烛光，红酒，七道菜，这才叫浪漫。",
+  "voice": "zm_yunxi",
+  "speed": 0.94,
+  "out": "../assets/voice/raw_P1.wav"
+ },
+ {
+  "text": "七道菜？人均八百八，吃完要吃一个月泡面喔！",
+  "voice": "zm_yunjian",
+  "speed": 1,
+  "out": "../assets/voice/raw_H2.wav"
+ },
+ {
+  "text": "那、那是周末！工作日套餐，只要一百九十八！",
+  "voice": "zm_yunxi",
+  "speed": 1.08,
+  "out": "../assets/voice/raw_P2.wav"
+ },
+ {
+  "text": "他那个牛排三分熟，切开还在喊妈妈咧！",
+  "voice": "zf_xiaoyi",
+  "speed": 1.06,
+  "out": "../assets/voice/raw_R3.wav"
+ },
+ {
+  "text": "那叫艺术！你不懂！",
+  "voice": "zm_yunxi",
+  "speed": 1.06,
+  "out": "../assets/voice/raw_P3.wav"
+ },
+ {
+  "text": "我发现，你在烛光和麻辣上停留最久。今晚是约会，又馋辣？",
+  "voice": "zf_xiaobei",
+  "speed": 1,
+  "out": "../assets/voice/raw_O3.wav"
+ },
+ {
+  "text": "约会？我们有露台包间，鸳鸯锅，不辣也巴适！",
+  "voice": "zf_xiaoyi",
+  "speed": 1.06,
+  "out": "../assets/voice/raw_R4.wav"
+ },
+ {
+  "text": "啧，又被她抢先了。",
+  "voice": "zm_yunjian",
+  "speed": 1,
+  "out": "../assets/voice/raw_H3.wav"
+ },
+ {
+  "text": "已为你预订：巴适川菜，今晚七点半，露台包间。",
+  "voice": "zf_xiaobei",
+  "speed": 1,
+  "out": "../assets/voice/raw_O4.wav"
+ }
+]

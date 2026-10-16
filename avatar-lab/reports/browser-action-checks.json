@@ -1,0 +1,200 @@
+[
+  {
+    "actor": 0,
+    "expected": "idle",
+    "actual": "idle",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "run",
+    "actual": "run",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "arrive",
+    "actual": "arrive",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "wave",
+    "actual": "wave",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "present",
+    "actual": "present",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "point",
+    "actual": "point",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "nod",
+    "actual": "nod",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "disagree",
+    "actual": "disagree",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "recoil",
+    "actual": "recoil",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "celebrate",
+    "actual": "celebrate",
+    "pass": true
+  },
+  {
+    "actor": 0,
+    "expected": "signature",
+    "actual": "signature",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "idle",
+    "actual": "idle",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "run",
+    "actual": "run",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "arrive",
+    "actual": "arrive",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "wave",
+    "actual": "wave",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "present",
+    "actual": "present",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "point",
+    "actual": "point",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "nod",
+    "actual": "nod",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "disagree",
+    "actual": "disagree",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "recoil",
+    "actual": "recoil",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "celebrate",
+    "actual": "celebrate",
+    "pass": true
+  },
+  {
+    "actor": 1,
+    "expected": "signature",
+    "actual": "signature",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "idle",
+    "actual": "idle",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "run",
+    "actual": "run",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "arrive",
+    "actual": "arrive",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "wave",
+    "actual": "wave",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "present",
+    "actual": "present",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "point",
+    "actual": "point",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "nod",
+    "actual": "nod",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "disagree",
+    "actual": "disagree",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "recoil",
+    "actual": "recoil",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "celebrate",
+    "actual": "celebrate",
+    "pass": true
+  },
+  {
+    "actor": 2,
+    "expected": "signature",
+    "actual": "signature",
+    "pass": true
+  }
+]

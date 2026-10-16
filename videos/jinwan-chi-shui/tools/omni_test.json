@@ -1,0 +1,20 @@
+{
+ "voices": {
+  "orb":    {"instruct": "女，青年，中音调", "language": "zh", "text": "晚上好呀，我是你的选餐助手。今晚想吃点什么，随便说说就行。"},
+  "rong":   {"instruct": "女，中年，中音调，四川话", "language": "zh", "text": "来嘛来嘛，我们屋头的川菜，巴适得板，保证你吃了还想来！"},
+  "hua":    {"instruct": "男，中年，低音调", "language": "yue", "text": "嚟啦嚟啦，我哋华记嘅点心，日日新鲜即做，包你食完仲想再嚟！"},
+  "hua_zh": {"instruct": "男，中年，低音调", "language": "zh", "text": "来来来，我们华记的点心，天天新鲜现做，保证你吃完还想再来。"},
+  "pierre": {"instruct": "male, young adult, moderate pitch", "language": "fr", "text": "Bonjour, je suis Pierre, le chef de Chez Pierre. Ici, on prend le temps de bien manger."}
+ },
+ "lines": [
+  {"id": "O1",  "voice": "orb",    "language": "zh",  "text": "晚上好！今晚想吃点什么？说个感觉就行。"},
+  {"id": "R1",  "voice": "rong",   "language": "zh",  "text": "来我屋头嘛！正宗川菜，麻辣鲜香，人均才八十五！"},
+  {"id": "R3",  "voice": "rong",   "language": "zh",  "text": "他那个牛排三分熟，切开还在喊妈妈咧！"},
+  {"id": "H1",  "voice": "hua",    "language": "yue", "text": "辣到个嘴都肿晒，仲点拍拖啊？嚟饮早茶啦，老火汤煲足四个钟！"},
+  {"id": "H2",  "voice": "hua",    "language": "yue", "text": "七道菜？人均八百八，食完要食成个月公仔面喎！"},
+  {"id": "H1x", "voice": "hua_zh", "language": "yue", "text": "辣到个嘴都肿晒，仲点拍拖啊？嚟饮早茶啦，老火汤煲足四个钟！"},
+  {"id": "P0",  "voice": "pierre", "language": "fr",  "text": "Mon Dieu…"},
+  {"id": "P1",  "voice": "pierre", "language": "zh",  "text": "你们太吵了。烛光，红酒，七道菜，这才叫浪漫。"},
+  {"id": "P4",  "voice": "pierre", "language": "fr",  "text": "Bon appétit !"}
+ ]
+}

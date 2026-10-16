@@ -1,0 +1,8 @@
+[
+  {"type":"filter_done","restaurants":[{"id":"sichuan","name":"川味小馆","pos":[0.16,0.65]},{"id":"cantonese","name":"粤来茶楼","pos":[0.5,0.14]},{"id":"french","name":"BONJOUR","pos":[0.84,0.65]}]},
+  {"type":"utterance","speaker":"sichuan","target":"french","text":"来我屋头嘛！正宗川菜，麻辣鲜香，人均才八十五！","emotion":"smug","gesture":"speakA","reactions":{"french":"doubt","cantonese":"thinking"},"audio_url":"/audio/sichuan.wav"},
+  {"type":"utterance","speaker":"cantonese","target":"sichuan","text":"辣到嘴都肿咯，还怎么约会？来饮早茶，靓汤煲足四个钟。","emotion":"disdain","gesture":"point","reactions":{"sichuan":"angry","french":"smug"},"audio_url":"/audio/cantonese.wav"},
+  {"type":"utterance","speaker":"french","target":"cantonese","text":"你们太吵了。烛光，红酒，七道菜，这才叫浪漫。","emotion":"smug","gesture":"speakB","reactions":{"cantonese":"embarrassed","sichuan":"shocked"},"audio_url":"/audio/french.wav"},
+  {"type":"user_input","text":"想清淡一点","focus":"cantonese"},
+  {"type":"user_choice","winner":"cantonese"}
+]

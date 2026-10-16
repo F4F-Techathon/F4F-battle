@@ -1,0 +1,190 @@
+{
+  "faces": [
+    {
+      "id": "sichuan_owner",
+      "visible": true,
+      "clip": "idle",
+      "emotion": "neutral",
+      "mouth": 0,
+      "mouthShape": null,
+      "position": [
+        -1.55,
+        0.085,
+        0
+      ],
+      "bones": 22,
+      "triangles": 35232,
+      "clips": [
+        "arrive",
+        "celebrate",
+        "disagree",
+        "idle",
+        "nod",
+        "point",
+        "present",
+        "recoil",
+        "run",
+        "wave",
+        "listen",
+        "speakA",
+        "speakB",
+        "emerge",
+        "disappointed",
+        "stomp",
+        "scratch",
+        "entrance",
+        "signature"
+      ],
+      "morphs": [
+        "MouthOpen",
+        "Smile",
+        "Frown",
+        "BrowUp",
+        "BrowDown",
+        "BlinkLeft",
+        "BlinkRight"
+      ],
+      "faceLayers": 3,
+      "faceSurfaceVertices": 9495,
+      "faceSurfaceDepth": 0.20228194817900658,
+      "prop": "ladle"
+    },
+    {
+      "id": "cantonese_owner",
+      "visible": true,
+      "clip": "idle",
+      "emotion": "neutral",
+      "mouth": 0,
+      "mouthShape": null,
+      "position": [
+        0,
+        0.085,
+        -0.12
+      ],
+      "bones": 22,
+      "triangles": 34277,
+      "clips": [
+        "arrive",
+        "celebrate",
+        "disagree",
+        "idle",
+        "nod",
+        "point",
+        "present",
+        "recoil",
+        "run",
+        "wave",
+        "listen",
+        "speakA",
+        "speakB",
+        "emerge",
+        "disappointed",
+        "stomp",
+        "scratch",
+        "entrance",
+        "signature"
+      ],
+      "morphs": [
+        "MouthOpen",
+        "Smile",
+        "Frown",
+        "BrowUp",
+        "BrowDown",
+        "BlinkLeft",
+        "BlinkRight"
+      ],
+      "faceLayers": 3,
+      "faceSurfaceVertices": 4482,
+      "faceSurfaceDepth": 0.19999999925494194,
+      "prop": "teapot"
+    },
+    {
+      "id": "french_chef",
+      "visible": true,
+      "clip": "idle",
+      "emotion": "neutral",
+      "mouth": 0,
+      "mouthShape": null,
+      "position": [
+        1.55,
+        0.085,
+        0
+      ],
+      "bones": 22,
+      "triangles": 36094,
+      "clips": [
+        "arrive",
+        "celebrate",
+        "disagree",
+        "idle",
+        "nod",
+        "point",
+        "present",
+        "recoil",
+        "run",
+        "wave",
+        "listen",
+        "speakA",
+        "speakB",
+        "emerge",
+        "disappointed",
+        "stomp",
+        "scratch",
+        "entrance",
+        "signature"
+      ],
+      "morphs": [
+        "MouthOpen",
+        "Smile",
+        "Frown",
+        "BrowUp",
+        "BrowDown",
+        "BlinkLeft",
+        "BlinkRight"
+      ],
+      "faceLayers": 3,
+      "faceSurfaceVertices": 10392,
+      "faceSurfaceDepth": 0.19999999925494194,
+      "prop": "whisk"
+    }
+  ],
+  "files": [
+    {
+      "path": "public/props/ladle.glb",
+      "bytes": 16356
+    },
+    {
+      "path": "public/props/teapot.glb",
+      "bytes": 38796
+    },
+    {
+      "path": "public/props/whisk.glb",
+      "bytes": 42444
+    },
+    {
+      "path": "public/faces/sichuan_owner.svg",
+      "bytes": 9100
+    },
+    {
+      "path": "public/animations/sichuan_owner.json",
+      "bytes": 1370091
+    },
+    {
+      "path": "public/faces/cantonese_owner.svg",
+      "bytes": 14479
+    },
+    {
+      "path": "public/animations/cantonese_owner.json",
+      "bytes": 1369720
+    },
+    {
+      "path": "public/faces/french_chef.svg",
+      "bytes": 12296
+    },
+    {
+      "path": "public/animations/french_chef.json",
+      "bytes": 1371328
+    }
+  ],
+  "errors": []
+}

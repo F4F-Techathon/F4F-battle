@@ -1,0 +1,178 @@
+{
+ "voices": {
+  "orb": {
+   "desc": "选餐助手 · 普通话 · 温和年轻女声",
+   "omni": {
+    "instruct": "女，青年，中音调",
+    "language": "zh",
+    "text": "晚上好呀，我是你的选餐助手。今晚想吃点什么，随便说说就行。"
+   },
+   "cosy": {
+    "mode": "zero_shot",
+    "speed": 1.1
+   },
+   "qwen": {
+    "voice": "Cherry",
+    "language_type": "Chinese"
+   }
+  },
+  "rong": {
+   "desc": "蓉姐 · 四川话 · 热情泼辣的中年老板娘",
+   "omni": {
+    "instruct": "女，中年，中音调，四川话",
+    "language": "zh",
+    "text": "来嘛来嘛，我们屋头的川菜，巴适得板，保证你吃了还想来！"
+   },
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用四川话表达。",
+    "speed": 1.2
+   },
+   "qwen": {
+    "voice": "Sunny",
+    "language_type": "Chinese"
+   }
+  },
+  "hua": {
+   "desc": "华叔 · 粤语 · 慢条斯理的中年老板",
+   "omni": {
+    "instruct": "男，中年，低音调",
+    "language": "yue",
+    "text": "嚟啦嚟啦，我哋华记嘅点心，日日新鲜即做，包你食完仲想再嚟！"
+   },
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用广东话表达。",
+    "speed": 1.25
+   },
+   "qwen": {
+    "voice": "Rocky",
+    "language_type": "Chinese"
+   }
+  },
+  "pierre": {
+   "desc": "Pierre · 法国口音普通话 + 法语 · 年轻主厨",
+   "omni": {
+    "instruct": "male, young adult, moderate pitch",
+    "language": "fr",
+    "text": "Bonjour, je suis Pierre, le chef de Chez Pierre. Ici, on prend le temps de bien manger."
+   },
+   "cosy": {
+    "mode": "cross",
+    "speed": 1.3
+   },
+   "qwen": {
+    "voice": "Emilien",
+    "language_type": "Chinese"
+   }
+  }
+ },
+ "lines": [
+  {
+   "id": "O1",
+   "who": "orb",
+   "lang": "zh",
+   "text": "晚上好！今晚想吃点什么？说个感觉就行。"
+  },
+  {
+   "id": "O2a",
+   "who": "orb",
+   "lang": "zh",
+   "text": "收到：两人，有氛围，三公里内。",
+   "speed": 1.15
+  },
+  {
+   "id": "O2b",
+   "who": "orb",
+   "lang": "zh",
+   "text": "我挑了三家，让他们自己来说！"
+  },
+  {
+   "id": "R1",
+   "who": "rong",
+   "lang": "zh",
+   "text": "来我屋头嘛！正宗川菜，麻辣鲜香，人均才八十五！"
+  },
+  {
+   "id": "H1",
+   "who": "hua",
+   "lang": "yue",
+   "text": "辣到个嘴都肿晒，仲点拍拖啊？嚟饮早茶啦，老火汤煲足四个钟！",
+   "gloss": "辣到嘴都肿了，还怎么约会？来饮早茶，老火汤煲足四个钟。"
+  },
+  {
+   "id": "R2",
+   "who": "rong",
+   "lang": "zh",
+   "text": "四个钟？等你汤好，人都饿晕了！"
+  },
+  {
+   "id": "P0",
+   "who": "pierre",
+   "lang": "fr",
+   "text": "Mon Dieu…"
+  },
+  {
+   "id": "P1",
+   "who": "pierre",
+   "lang": "zh",
+   "text": "你们太吵了。烛光，红酒，七道菜，这才叫浪漫。"
+  },
+  {
+   "id": "H2",
+   "who": "hua",
+   "lang": "yue",
+   "text": "七道菜？人均八百八，食完要食成个月公仔面喎！",
+   "gloss": "七道菜？人均八百八，吃完要吃一个月泡面！"
+  },
+  {
+   "id": "P2",
+   "who": "pierre",
+   "lang": "zh",
+   "text": "那、那是周末！工作日套餐，只要一百九十八！"
+  },
+  {
+   "id": "R3",
+   "who": "rong",
+   "lang": "zh",
+   "text": "他那个牛排三分熟，切开还在喊妈妈咧！"
+  },
+  {
+   "id": "P3",
+   "who": "pierre",
+   "lang": "zh",
+   "text": "那叫艺术！你不懂！"
+  },
+  {
+   "id": "O3",
+   "who": "orb",
+   "lang": "zh",
+   "text": "我发现，你在烛光和麻辣上停留最久。今晚是约会，又馋辣？"
+  },
+  {
+   "id": "R4",
+   "who": "rong",
+   "lang": "zh",
+   "text": "约会？我们有露台包间，鸳鸯锅，不辣也巴适！"
+  },
+  {
+   "id": "H3",
+   "who": "hua",
+   "lang": "yue",
+   "text": "啧，又畀佢抢先咗。",
+   "gloss": "啧，又被她抢先了。"
+  },
+  {
+   "id": "P4",
+   "who": "pierre",
+   "lang": "fr",
+   "text": "Bon appétit !"
+  },
+  {
+   "id": "O4",
+   "who": "orb",
+   "lang": "zh",
+   "text": "已为你预订：巴适川菜，今晚七点半，露台包间。"
+  }
+ ]
+}

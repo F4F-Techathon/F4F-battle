@@ -1,0 +1,197 @@
+{
+  "state": {
+    "ready": true,
+    "phase": 3,
+    "phaseName": "推销与拆台",
+    "sessionId": "local",
+    "selected": "sichuan_owner",
+    "speaking": null,
+    "audioTime": null,
+    "winner": null,
+    "fps": 9,
+    "scene": "stage",
+    "environment": {
+      "status": "ready",
+      "triangles": 200000,
+      "ground": 0.3702493025670246
+    },
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "visible": true,
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          -1.55,
+          0.085,
+          0
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 9495,
+        "faceSurfaceDepth": 0.20228194817900658,
+        "prop": "ladle"
+      },
+      {
+        "id": "cantonese_owner",
+        "visible": true,
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          0,
+          0.085,
+          -0.12
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 4482,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "teapot"
+      },
+      {
+        "id": "french_chef",
+        "visible": true,
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          1.55,
+          0.085,
+          0
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 10392,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "whisk"
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "environment.ready",
+        "sessionId": "local",
+        "triangles": 200000
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      }
+    ]
+  },
+  "errors": []
+}

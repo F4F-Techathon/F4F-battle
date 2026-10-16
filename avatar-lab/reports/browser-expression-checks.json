@@ -1,0 +1,34 @@
+[
+  {
+    "preset": "neutral",
+    "pass": true
+  },
+  {
+    "preset": "welcome",
+    "pass": true
+  },
+  {
+    "preset": "confident",
+    "pass": true
+  },
+  {
+    "preset": "curious",
+    "pass": true
+  },
+  {
+    "preset": "skeptical",
+    "pass": true
+  },
+  {
+    "preset": "surprised",
+    "pass": true
+  },
+  {
+    "preset": "embarrassed",
+    "pass": true
+  },
+  {
+    "preset": "delighted",
+    "pass": true
+  }
+]

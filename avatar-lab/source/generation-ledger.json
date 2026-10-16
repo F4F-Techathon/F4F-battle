@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.0",
+  "authorization": "User: 请使用hyper3d，接入3d资产的生成和驱动流程。",
+  "actors": [
+    {
+      "id": "sichuan_owner",
+      "generationId": "6ad52b9f-5aa7-44c0-bbd2-cfe65594add5",
+      "status": "completed",
+      "displayUrl": "https://hyper3d.ai/workspace/rodin/6ad52b9f-5aa7-44c0-bbd2-cfe65594add5",
+      "tier": "Gen-2.5-Medium",
+      "meshMode": "Quad",
+      "qualityOverride": 18000,
+      "reference": "public/references/sichuan-front.png",
+      "prompt": "Single stylized Sichuan restaurant proprietress matching the provided reference precisely. Full body, front-facing symmetric relaxed A pose with arms separated from torso and legs apart, neutral closed mouth. Preserve high dark bun, brick-red jacket, ivory shirt, mustard short front apron with back waist ribbon, plum full trousers and shoes. Clean distinct limbs, joint-friendly quad topology at shoulders elbows hips and knees, symmetrical anatomy, simplified separated fingers. No background, no stage, no accessories held in hands. Preserve large expressive eyes and clear mouth. Material colors from reference, no glow or ground surface."
+    },
+    {
+      "id": "cantonese_owner",
+      "generationId": "e4f148e6-6f91-4ff8-9070-8981257592f1",
+      "status": "completed",
+      "displayUrl": "https://hyper3d.ai/workspace/rodin/e4f148e6-6f91-4ff8-9070-8981257592f1",
+      "tier": "Gen-2.5-Medium",
+      "meshMode": "Quad",
+      "qualityOverride": 18000,
+      "reference": "public/references/cantonese-front.png",
+      "prompt": "One stylized Cantonese restaurant owner matching the supplied image exactly. a jade-green Chinese stand-collar jacket with ivory cuffs, dark plum trousers, dark shoes, short dark hair with gray temples, rounded friendly face. Front-facing symmetric relaxed A pose, arms clearly separate from torso, straight legs slightly apart, feet flat. Full body. Neutral closed mouth and large expressive eyes. Clean joint-friendly quad topology, distinct shoulders elbows knees and hands. No floor, no background, no props held in hands. Preserve proportions and colors from reference."
+    },
+    {
+      "id": "french_chef",
+      "generationId": "f10465f4-1521-4611-b179-3538a138674c",
+      "status": "completed",
+      "displayUrl": "https://hyper3d.ai/workspace/rodin/f10465f4-1521-4611-b179-3538a138674c",
+      "tier": "Gen-2.5-Medium",
+      "meshMode": "Quad",
+      "qualityOverride": 18000,
+      "reference": "public/references/french-front.png",
+      "prompt": "One stylized French executive chef matching the supplied image exactly. a cream double-breasted chef jacket, plum neckerchief and waist apron, dark plum trousers and shoes, tall ivory chef hat, dark swept hair, friendly face. Front-facing symmetric relaxed A pose, arms clearly separate from torso, straight legs slightly apart, feet flat. Full body. Neutral closed mouth and large expressive eyes. Clean joint-friendly quad topology, distinct shoulders elbows knees and hands. No floor, no background, no props held in hands. Preserve proportions and colors from reference."
+    }
+  ]
+}

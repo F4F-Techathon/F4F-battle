@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "generationId": "bda700aa-4770-4091-bc4b-458db42fff99",
+  "status": "completed-visual-reviewed",
+  "displayUrl": "https://hyper3d.ai/workspace/rodin/bda700aa-4770-4091-bc4b-458db42fff99",
+  "tier": "Gen-2.5-High",
+  "meshMode": "Raw",
+  "qualityOverride": 200000,
+  "textureDelight": true,
+  "localFile": "restaurant-street-high.glb",
+  "reference": "street-reference-v2.png",
+  "referenceCreation": "Built-in image_gen; exact prompt in street-reference-prompt.txt",
+  "bytes": 25553180,
+  "triangles": 200000,
+  "vertices": 331628,
+  "prompt": "Reconstruct the entire architectural street diorama in the reference image. Three full two-story restaurant buildings with roof tiles, doors, lattice windows, balconies and awnings arranged around an open paved central plaza. Include the complete shallow street base, perimeter benches, street lamps and planters. Preserve the reference composition, open front and empty central walking area. This is a single architectural environment with broad horizontal footprint, no people, no humanoid geometry, no isolated lantern. Preserve all three building silhouettes and detailed pavement. Clean high-detail 3D game environment, PBR textures, geometry on all visible facades.",
+  "rejectedGenerationId": "b9a60aa8-9198-48dc-9060-f50ec68effbb",
+  "authorization": "User: 而且我需要你帮我生成高精度街道3d资产，借助hyper3d。"
+}

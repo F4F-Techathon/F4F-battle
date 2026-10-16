@@ -1,0 +1,45 @@
+{
+  "file": "public/environments/restaurant-street-high.glb",
+  "bytes": 25553180,
+  "triangles": 200000,
+  "vertices": 331628,
+  "meshes": 1,
+  "materials": 1,
+  "positions": {
+    "bufferView": 0,
+    "componentType": 5126,
+    "count": 331628,
+    "max": [
+      0.9499773383140564,
+      0.4377402365207672,
+      0.8631545305252075
+    ],
+    "min": [
+      -0.9501444697380066,
+      -0.43720898032188416,
+      -0.8605915307998657
+    ],
+    "type": "VEC3"
+  },
+  "textures": [
+    {
+      "name": "texture_normal",
+      "bytes": 4369646,
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "texture_diffuse",
+      "bytes": 5257142,
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "texture_metallic-texture_roughness",
+      "bytes": 2912530,
+      "width": 2048,
+      "height": 2048
+    }
+  ],
+  "sha256": "495cf25803be93ac6b51ca65feb4310d21b2ec3a47bafd75615e3ee79dd62326"
+}

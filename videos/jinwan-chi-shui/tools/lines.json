@@ -1,0 +1,107 @@
+[
+ {
+  "id": "O1",
+  "who": "orb",
+  "voice": "zf_xiaobei",
+  "speed": 1.0,
+  "text": "晚上好！今晚想吃点什么？说个感觉就行。"
+ },
+ {
+  "id": "O2a",
+  "who": "orb",
+  "voice": "zf_xiaobei",
+  "speed": 1.02,
+  "text": "收到！两个人，有氛围，三公里内。"
+ },
+ {
+  "id": "O2b",
+  "who": "orb",
+  "voice": "zf_xiaobei",
+  "speed": 1.02,
+  "text": "我挑了三家，让他们自己来说！"
+ },
+ {
+  "id": "R1",
+  "who": "rong",
+  "voice": "zf_xiaoyi",
+  "speed": 1.06,
+  "text": "来我屋头嘛！正宗川菜，麻辣鲜香，人均才八十五！"
+ },
+ {
+  "id": "H1",
+  "who": "hua",
+  "voice": "zm_yunjian",
+  "speed": 0.96,
+  "text": "辣到嘴都肿了，还怎么约会？来饮早茶，老火汤煲足四个钟。"
+ },
+ {
+  "id": "R2",
+  "who": "rong",
+  "voice": "zf_xiaoyi",
+  "speed": 1.1,
+  "text": "四个钟？等你汤好，人都饿晕了！"
+ },
+ {
+  "id": "P1",
+  "who": "pierre",
+  "voice": "zm_yunxi",
+  "speed": 0.94,
+  "text": "你们太吵了。烛光，红酒，七道菜，这才叫浪漫。"
+ },
+ {
+  "id": "H2",
+  "who": "hua",
+  "voice": "zm_yunjian",
+  "speed": 1.0,
+  "text": "七道菜？人均八百八，吃完要吃一个月泡面喔！"
+ },
+ {
+  "id": "P2",
+  "who": "pierre",
+  "voice": "zm_yunxi",
+  "speed": 1.08,
+  "text": "那、那是周末！工作日套餐，只要一百九十八！"
+ },
+ {
+  "id": "R3",
+  "who": "rong",
+  "voice": "zf_xiaoyi",
+  "speed": 1.06,
+  "text": "他那个牛排三分熟，切开还在喊妈妈咧！"
+ },
+ {
+  "id": "P3",
+  "who": "pierre",
+  "voice": "zm_yunxi",
+  "speed": 1.06,
+  "text": "那叫艺术！你不懂！"
+ },
+ {
+  "id": "O3",
+  "who": "orb",
+  "voice": "zf_xiaobei",
+  "speed": 1.0,
+  "text": "我发现，你在烛光和麻辣上停留最久。今晚是约会，又馋辣？"
+ },
+ {
+  "id": "R4",
+  "who": "rong",
+  "voice": "zf_xiaoyi",
+  "speed": 1.06,
+  "text": "约会？我们有露台包间，鸳鸯锅，不辣也巴适！"
+ },
+ {
+  "id": "H3",
+  "who": "hua",
+  "voice": "zm_yunjian",
+  "speed": 1.0,
+  "text": "啧，又被她抢先了。"
+ },
+ {
+  "id": "O4",
+  "who": "orb",
+  "voice": "zf_xiaobei",
+  "speed": 1.0,
+  "text": "已为你预订：巴适川菜，今晚七点半，露台包间。"
+ }
+]

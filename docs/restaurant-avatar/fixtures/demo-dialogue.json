@@ -1,0 +1,490 @@
+{
+  "schemaVersion": "0.1",
+  "status": "script-only-not-runtime-validated",
+  "fictional": true,
+  "audioIncluded": false,
+  "warning": "所有店名、价格、距离、环境和对白均为虚构测试数据。estimatedDurationMs 是演示排程，不是测得的语音时间戳。",
+  "restaurants": [
+    {
+      "id": "fictional-sichuan",
+      "actorId": "sichuan_owner",
+      "name": "蜀香小馆（虚构）",
+      "facts": {
+        "pricePerPersonCNY": 110,
+        "walkMinutes": 6,
+        "environment": "热闹，开放大厅",
+        "cuisine": "川菜",
+        "privateRoom": false
+      },
+      "evidence": [
+        {
+          "id": "fictional-sichuan-environment",
+          "source": "synthetic-fixture",
+          "value": "热闹，开放大厅"
+        },
+        {
+          "id": "fictional-sichuan-price",
+          "source": "synthetic-fixture",
+          "value": 110
+        }
+      ]
+    },
+    {
+      "id": "fictional-cantonese",
+      "actorId": "cantonese_owner",
+      "name": "青禾粤味（虚构）",
+      "facts": {
+        "pricePerPersonCNY": 145,
+        "walkMinutes": 9,
+        "environment": "相对安静，有卡座",
+        "cuisine": "粤菜",
+        "privateRoom": null
+      },
+      "evidence": [
+        {
+          "id": "fictional-cantonese-environment",
+          "source": "synthetic-fixture",
+          "value": "相对安静，有卡座"
+        },
+        {
+          "id": "fictional-cantonese-price",
+          "source": "synthetic-fixture",
+          "value": 145
+        }
+      ]
+    },
+    {
+      "id": "fictional-french",
+      "actorId": "french_chef",
+      "name": "紫鸢法餐（虚构）",
+      "facts": {
+        "pricePerPersonCNY": 260,
+        "walkMinutes": 12,
+        "environment": "安静，桌间距较大",
+        "cuisine": "法式",
+        "privateRoom": null
+      },
+      "evidence": [
+        {
+          "id": "fictional-french-environment",
+          "source": "synthetic-fixture",
+          "value": "安静，桌间距较大"
+        },
+        {
+          "id": "fictional-french-price",
+          "source": "synthetic-fixture",
+          "value": 260
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "normal-debate",
+      "description": "约60秒的三人出场、推介、质疑、偏好澄清与主动选择",
+      "events": [
+        {
+          "version": "0.1",
+          "eventId": "demo-001",
+          "sessionId": "demo-session",
+          "seq": 1,
+          "atMs": 0,
+          "type": "session.start",
+          "payload": {
+            "mode": "synthetic-text-preview",
+            "userText": "想找一家适合聊天、不要太远的餐馆。",
+            "candidateIds": [
+              "fictional-sichuan",
+              "fictional-cantonese",
+              "fictional-french"
+            ]
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-002",
+          "sessionId": "demo-session",
+          "seq": 2,
+          "atMs": 1000,
+          "type": "actors.spawn",
+          "payload": {
+            "actors": [
+              {
+                "actorId": "sichuan_owner",
+                "restaurantId": "fictional-sichuan",
+                "stageSlot": "left",
+                "spawnDelayMs": 0
+              },
+              {
+                "actorId": "cantonese_owner",
+                "restaurantId": "fictional-cantonese",
+                "stageSlot": "center",
+                "spawnDelayMs": 180
+              },
+              {
+                "actorId": "french_chef",
+                "restaurantId": "fictional-french",
+                "stageSlot": "right",
+                "spawnDelayMs": 360
+              }
+            ]
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-003",
+          "sessionId": "demo-session",
+          "seq": 3,
+          "atMs": 1700,
+          "type": "actor.move",
+          "actorId": "sichuan_owner",
+          "payload": {
+            "pathId": "path-left",
+            "durationMs": 2400,
+            "clip": "run"
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-004",
+          "sessionId": "demo-session",
+          "seq": 4,
+          "atMs": 1880,
+          "type": "actor.move",
+          "actorId": "cantonese_owner",
+          "payload": {
+            "pathId": "path-center",
+            "durationMs": 2400,
+            "clip": "run"
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-005",
+          "sessionId": "demo-session",
+          "seq": 5,
+          "atMs": 2060,
+          "type": "actor.move",
+          "actorId": "french_chef",
+          "payload": {
+            "pathId": "path-right",
+            "durationMs": 2400,
+            "clip": "run"
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-006",
+          "sessionId": "demo-session",
+          "seq": 6,
+          "atMs": 5400,
+          "type": "actor.speak",
+          "actorId": "sichuan_owner",
+          "turnId": "t01",
+          "payload": {
+            "text": "我们这里走路六分钟，人均一百一十元。想热热闹闹吃一顿，可以先看看我。",
+            "emotion": {
+              "name": "welcome",
+              "intensity": 0.65,
+              "transitionMs": 200
+            },
+            "gesture": "present",
+            "gazeTarget": "user",
+            "speech": {
+              "mode": "text-preview",
+              "estimatedDurationMs": 7200
+            },
+            "evidenceIds": [
+              "fictional-sichuan-price"
+            ]
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-007",
+          "sessionId": "demo-session",
+          "seq": 7,
+          "atMs": 8000,
+          "type": "actor.react",
+          "actorId": "cantonese_owner",
+          "payload": {
+            "emotion": {
+              "name": "skeptical",
+              "intensity": 0.5,
+              "transitionMs": 200
+            },
+            "gazeTarget": "sichuan_owner",
+            "gesture": "idle"
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-008",
+          "sessionId": "demo-session",
+          "seq": 8,
+          "atMs": 13400,
+          "type": "actor.speak",
+          "actorId": "cantonese_owner",
+          "turnId": "t02",
+          "payload": {
+            "text": "热闹也很好，不过刚才说想聊天。我这里有相对安静的卡座，人均一百四十五元。",
+            "emotion": {
+              "name": "confident",
+              "intensity": 0.65,
+              "transitionMs": 200
+            },
+            "gesture": "present",
+            "gazeTarget": "user",
+            "speech": {
+              "mode": "text-preview",
+              "estimatedDurationMs": 7800
+            },
+            "evidenceIds": [
+              "fictional-cantonese-environment",
+              "fictional-cantonese-price"
+            ]
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-009",
+          "sessionId": "demo-session",
+          "seq": 9,
+          "atMs": 16000,
+          "type": "actor.react",
+          "actorId": "sichuan_owner",
+          "payload": {
+            "emotion": {
+              "name": "surprised",
+              "intensity": 0.7,
+              "transitionMs": 100
+            },
+            "gazeTarget": "cantonese_owner",
+            "gesture": "recoil"
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-010",
+          "sessionId": "demo-session",
+          "seq": 10,
+          "atMs": 22000,
+          "type": "actor.speak",
+          "actorId": "french_chef",
+          "turnId": "t03",
+          "payload": {
+            "text": "如果愿意慢慢吃，我这里桌间距较大，也安静。先说明，人均大约二百六十元。",
+            "emotion": {
+              "name": "confident",
+              "intensity": 0.65,
+              "transitionMs": 200
+            },
+            "gesture": "present",
+            "gazeTarget": "user",
+            "speech": {
+              "mode": "text-preview",
+              "estimatedDurationMs": 7600
+            },
+            "evidenceIds": [
+              "fictional-french-environment",
+              "fictional-french-price"
+            ]
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-011",
+          "sessionId": "demo-session",
+          "seq": 11,
+          "atMs": 30600,
+          "type": "user.preference",
+          "payload": {
+            "text": "今晚主要想认真聊天，人均最好不超过一百五十元。",
+            "maxPriceCNY": 150,
+            "quiet": true
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-012",
+          "sessionId": "demo-session",
+          "seq": 12,
+          "atMs": 32400,
+          "type": "actor.speak",
+          "actorId": "sichuan_owner",
+          "turnId": "t04",
+          "payload": {
+            "text": "这个预算我能满足；但如果今晚安静更重要，我的大堂可能就不占优势了。",
+            "emotion": {
+              "name": "embarrassed",
+              "intensity": 0.65,
+              "transitionMs": 200
+            },
+            "gesture": "nod",
+            "gazeTarget": "user",
+            "speech": {
+              "mode": "text-preview",
+              "estimatedDurationMs": 7000
+            },
+            "evidenceIds": [
+              "fictional-sichuan-price",
+              "fictional-sichuan-environment"
+            ]
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-013",
+          "sessionId": "demo-session",
+          "seq": 13,
+          "atMs": 40200,
+          "type": "actor.speak",
+          "actorId": "french_chef",
+          "turnId": "t05",
+          "payload": {
+            "text": "那我这次先让位，按现在这份人均预算，我不符合你的条件。",
+            "emotion": {
+              "name": "neutral",
+              "intensity": 0.65,
+              "transitionMs": 200
+            },
+            "gesture": "nod",
+            "gazeTarget": "user",
+            "speech": {
+              "mode": "text-preview",
+              "estimatedDurationMs": 5600
+            },
+            "evidenceIds": [
+              "fictional-french-price"
+            ]
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-014",
+          "sessionId": "demo-session",
+          "seq": 14,
+          "atMs": 46600,
+          "type": "actor.speak",
+          "actorId": "cantonese_owner",
+          "turnId": "t06",
+          "payload": {
+            "text": "按你刚补充的预算和聊天需求，我这边更接近。要再看看菜单吗？",
+            "emotion": {
+              "name": "welcome",
+              "intensity": 0.65,
+              "transitionMs": 200
+            },
+            "gesture": "signature_cantonese",
+            "gazeTarget": "user",
+            "speech": {
+              "mode": "text-preview",
+              "estimatedDurationMs": 6500
+            },
+            "evidenceIds": [
+              "fictional-cantonese-environment",
+              "fictional-cantonese-price"
+            ]
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-015",
+          "sessionId": "demo-session",
+          "seq": 15,
+          "atMs": 54000,
+          "type": "host.summary",
+          "payload": {
+            "text": "在这组三家虚构餐馆数据中，青禾粤味更接近新增的预算与安静需求。",
+            "suggestedId": "fictional-cantonese",
+            "evidenceIds": [
+              "fictional-cantonese-price",
+              "fictional-cantonese-environment"
+            ],
+            "requiresUserSelection": true
+          }
+        },
+        {
+          "version": "0.1",
+          "eventId": "demo-016",
+          "sessionId": "demo-session",
+          "seq": 16,
+          "atMs": 59000,
+          "type": "selection.confirm",
+          "actorId": "cantonese_owner",
+          "payload": {
+            "restaurantId": "fictional-cantonese",
+            "trigger": "simulated-user-click",
+            "emotion": {
+              "name": "delighted",
+              "intensity": 0.8
+            },
+            "gesture": "celebrate"
+          }
+        }
+      ]
+    },
+    {
+      "id": "interrupt-and-stale-event",
+      "description": "用户打断后应静音、复位口型、忽略旧turn迟到消息。示例片段待测试器实现。",
+      "events": [
+        {
+          "eventId": "interrupt-01",
+          "sessionId": "interrupt-demo",
+          "seq": 1,
+          "type": "actor.speak",
+          "actorId": "french_chef",
+          "turnId": "old-turn",
+          "payload": {
+            "text": "我想先介绍今天的菜单。",
+            "emotion": {
+              "name": "confident",
+              "intensity": 0.6
+            },
+            "gesture": "present",
+            "speech": {
+              "mode": "text-preview",
+              "estimatedDurationMs": 4000
+            }
+          }
+        },
+        {
+          "eventId": "interrupt-02",
+          "sessionId": "interrupt-demo",
+          "seq": 2,
+          "type": "turn.cancel",
+          "turnId": "old-turn",
+          "payload": {
+            "reason": "user-interrupted"
+          }
+        },
+        {
+          "eventId": "interrupt-03",
+          "sessionId": "interrupt-demo",
+          "seq": 3,
+          "type": "actor.react",
+          "actorId": "french_chef",
+          "turnId": "old-turn",
+          "payload": {
+            "emotion": {
+              "name": "delighted",
+              "intensity": 1
+            },
+            "expected": "ignore-cancelled-turn"
+          }
+        }
+      ]
+    },
+    {
+      "id": "long-text",
+      "description": "换行、分段、空文本和混排夹具",
+      "texts": [
+        "",
+        "我想吃点清淡的，最好安静一些。",
+        "预算 ¥150/人，2 位，19:30；希望能坐下来好好聊天。",
+        "Bonjour! 今天有一道主厨推荐 😊，但请先确认你的预算和忌口。",
+        "我们希望找到适合三位朋友聊天的餐馆，最好离当前位置步行十五分钟以内，人均预算不超过一百五十元，其中一位不吃辣，也希望能够提前知道是否需要排队。我们希望找到适合三位朋友聊天的餐馆，最好离当前位置步行十五分钟以内，人均预算不超过一百五十元，其中一位不吃辣，也希望能够提前知道是否需要排队。我们希望找到适合三位朋友聊天的餐馆，最好离当前位置步行十五分钟以内，人均预算不超过一百五十元，其中一位不吃辣，也希望能够提前知道是否需要排队。"
+      ]
+    }
+  ]
+}

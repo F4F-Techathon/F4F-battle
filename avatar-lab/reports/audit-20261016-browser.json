@@ -1,0 +1,1090 @@
+{
+  "url": "http://127.0.0.1:5273/",
+  "initial": {
+    "ready": true,
+    "sessionId": "local",
+    "selected": "sichuan_owner",
+    "speaking": null,
+    "fps": 1,
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          -1.43,
+          0.065,
+          0.05
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "cantonese_owner",
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          0,
+          0.065,
+          -0.15
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "french_chef",
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          1.43,
+          0.065,
+          0.05
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      }
+    ]
+  },
+  "errors": [],
+  "spawn": {
+    "ready": true,
+    "sessionId": "local",
+    "selected": "sichuan_owner",
+    "speaking": null,
+    "fps": 41,
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "clip": "run",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          -2.6021545469238405,
+          0.065,
+          -1.9196039517982566
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "cantonese_owner",
+        "clip": "run",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          0,
+          0.065,
+          -2.997329804116215
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "french_chef",
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          2.65,
+          0.065,
+          -2
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      }
+    ]
+  },
+  "speaking": {
+    "ready": true,
+    "sessionId": "local",
+    "selected": "sichuan_owner",
+    "speaking": "turn-1",
+    "fps": 9,
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "clip": "present",
+        "emotion": "confident",
+        "mouth": 0.7869787716696945,
+        "position": [
+          -1.43,
+          0.065,
+          0.04999999999999982
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "cantonese_owner",
+        "clip": "arrive",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          0,
+          0.065,
+          -0.1499999999999999
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "french_chef",
+        "clip": "arrive",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          1.43,
+          0.065,
+          0.04999999999999982
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "turn-1"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      }
+    ]
+  },
+  "afterDemo": {
+    "ready": true,
+    "sessionId": "local",
+    "selected": "french_chef",
+    "speaking": null,
+    "fps": 9,
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "clip": "nod",
+        "emotion": "curious",
+        "mouth": 0,
+        "position": [
+          -1.43,
+          0.065,
+          0.04999999999999982
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "cantonese_owner",
+        "clip": "idle",
+        "emotion": "skeptical",
+        "mouth": 0,
+        "position": [
+          0,
+          0.065,
+          -0.1499999999999999
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "french_chef",
+        "clip": "idle",
+        "emotion": "confident",
+        "mouth": 0,
+        "position": [
+          1.43,
+          0.065,
+          0.04999999999999982
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "turn-1"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "arrive"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "animation": "arrive"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "turn-1"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "turn-2"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "turn-2"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "turn-3"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "turn-3"
+      }
+    ]
+  },
+  "specEvents": [
+    {
+      "type": "filter_done",
+      "result": {
+        "ok": false,
+        "reason": "unsupported-type"
+      }
+    },
+    {
+      "type": "utterance",
+      "result": {
+        "ok": false,
+        "reason": "unsupported-type"
+      }
+    },
+    {
+      "type": "user_input",
+      "result": {
+        "ok": false,
+        "reason": "unsupported-type"
+      }
+    },
+    {
+      "type": "user_choice",
+      "result": {
+        "ok": false,
+        "reason": "unsupported-type"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "requested": "neutral",
+      "actual": "neutral"
+    },
+    {
+      "requested": "smile",
+      "actual": "neutral"
+    },
+    {
+      "requested": "smug",
+      "actual": "neutral"
+    },
+    {
+      "requested": "disdain",
+      "actual": "neutral"
+    },
+    {
+      "requested": "shocked",
+      "actual": "neutral"
+    },
+    {
+      "requested": "angry",
+      "actual": "neutral"
+    },
+    {
+      "requested": "embarrassed",
+      "actual": "embarrassed"
+    },
+    {
+      "requested": "overjoyed",
+      "actual": "neutral"
+    },
+    {
+      "requested": "disappointed",
+      "actual": "neutral"
+    }
+  ],
+  "selection": {
+    "ready": true,
+    "sessionId": "local",
+    "selected": "french_chef",
+    "speaking": null,
+    "fps": 9,
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          -1.43,
+          0.065,
+          0.04999999999999982
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "cantonese_owner",
+        "clip": "celebrate",
+        "emotion": "delighted",
+        "mouth": 0,
+        "position": [
+          0,
+          0.065,
+          -0.1499999999999999
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "french_chef",
+        "clip": "idle",
+        "emotion": "confident",
+        "mouth": 0,
+        "position": [
+          1.43,
+          0.065,
+          0.04999999999999982
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "turn-1"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "arrive"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "animation": "arrive"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "turn-1"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "turn-2"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "turn-2"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "turn-3"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "turn-3"
+      },
+      {
+        "type": "user.selected",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      }
+    ]
+  },
+  "cancel": {
+    "ready": true,
+    "sessionId": "local",
+    "selected": "french_chef",
+    "speaking": null,
+    "fps": 9,
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          -1.43,
+          0.065,
+          0.05
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "cantonese_owner",
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "position": [
+          0,
+          0.065,
+          -0.15
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      },
+      {
+        "id": "french_chef",
+        "clip": "idle",
+        "emotion": "welcome",
+        "mouth": 0,
+        "position": [
+          1.43,
+          0.065,
+          0.05
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "signature",
+          "wave"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ]
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "turn-1"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "arrive"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "animation": "arrive"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "turn-1"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "turn-2"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "turn-2"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "turn-3"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "turn-3"
+      },
+      {
+        "type": "user.selected",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "turn-1011"
+      },
+      {
+        "type": "speech.cancelled",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "turn-1011"
+      }
+    ]
+  }
+}

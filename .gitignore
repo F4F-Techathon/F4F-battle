@@ -1,0 +1,29 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.blend1
+__pycache__/
+*.pyc
+
+# local tooling with machine-specific paths
+.claude/
+
+# build outputs and packaged deliverables (regenerated)
+node_modules/
+dist/
+*.zip
+exports/
+
+# secrets: real API keys live only in agent-studio/.env (template: agent-studio/.env.example)
+.env
+.env.*
+!.env.example
+
+# agent-studio runtime data (regenerated on use)
+agent-studio/cache/
+agent-studio/sessions/
+agent-studio/agents/
+
+# TTS install logs; tts/CosyVoice is a submodule, its weights come from tts/download_model.py
+tts/logs/

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "checks": [
+    "GLB 2.0",
+    "skin weights normalized",
+    "joint indices in range",
+    "11 clips with finite time/value tracks",
+    "7 zero-default morphs",
+    "morph displacement below 6 cm"
+  ],
+  "actors": [
+    {
+      "id": "sichuan_owner",
+      "bytes": 8195672,
+      "triangles": 35232,
+      "vertices": 20056,
+      "skinJoints": 22,
+      "clipCount": 11,
+      "morphCount": 7,
+      "maxMorphDisplacementMeters": 0.03281140327453613,
+      "maxWeightSumError": 2.9802322387695312e-8
+    },
+    {
+      "id": "cantonese_owner",
+      "bytes": 8848068,
+      "triangles": 34277,
+      "vertices": 19609,
+      "skinJoints": 22,
+      "clipCount": 11,
+      "morphCount": 7,
+      "maxMorphDisplacementMeters": 0.03274965286254883,
+      "maxWeightSumError": 2.9802322387695312e-8
+    },
+    {
+      "id": "french_chef",
+      "bytes": 9410208,
+      "triangles": 36094,
+      "vertices": 19716,
+      "skinJoints": 22,
+      "clipCount": 11,
+      "morphCount": 7,
+      "maxMorphDisplacementMeters": 0.0214998722076416,
+      "maxWeightSumError": 2.9802322387695312e-8
+    }
+  ]
+}

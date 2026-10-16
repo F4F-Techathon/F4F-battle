@@ -1,0 +1,1573 @@
+{
+ "version": "1.0",
+ "source": "videos/jinwan-chi-shui (assets/js/rig.js · scene-*.js · tools/lines_dialect.json · BRIEF.md) + docs/restaurant-avatar/01-brief.md + avatar-lab/public/manifest.json",
+ "fps": 30,
+ "characters": {
+  "rong": {
+   "name": "蓉姐",
+   "fullName": "蓉姐 · 巴适川菜",
+   "actorId": "sichuan_owner",
+   "restaurant": "巴适川菜",
+   "plate": "川菜 · ¥85/人 · 1.2 km",
+   "cuisine": "川菜",
+   "price": 85,
+   "distanceKm": 1.2,
+   "stageX": 440,
+   "edge": "#C9483E",
+   "language": "sc",
+   "persona": "四川餐馆老板娘，35—40 岁。热情、泼辣、直接，有感染力；推介时掌心打开、身体前倾，被质疑时先侧目挑眉再短促回击。卖点：正宗麻辣、人均 85、露台包间与鸳鸯锅。",
+   "voiceDesc": "四川话 · 热情泼辣的中年老板娘",
+   "look": "高发髻配金色发簪与辣椒红发绳、辣椒红短外套（盘扣与辣椒胸针）、姜黄短围裙、深紫裤装；上挑眼线。",
+   "signature": "轻叉腰、扬眉、朝观众竖大拇指并抛媚眼（hipR → thumbR + wink）。",
+   "palette": [
+    "#C9483E",
+    "#A23933",
+    "#E3B04B",
+    "#F6E8D2",
+    "#4A2B3D",
+    "#2A1C24",
+    "#F6CBA9"
+   ],
+   "defaults": {
+    "expr": "pitch",
+    "gesture": "hip_one",
+    "act": "stepIn",
+    "reaction": "eyeroll"
+   },
+   "keywords": [
+    "蓉姐",
+    "川菜",
+    "麻辣",
+    "辣",
+    "火锅",
+    "巴适"
+   ],
+   "kind": "film"
+  },
+  "hua": {
+   "name": "华叔",
+   "fullName": "华叔 · 华记粤点",
+   "actorId": "cantonese_owner",
+   "restaurant": "华记粤点",
+   "plate": "粤菜 · ¥128/人 · 0.8 km",
+   "cuisine": "粤菜 / 早茶",
+   "price": 128,
+   "distanceKm": 0.8,
+   "stageX": 960,
+   "edge": "#2F6E62",
+   "language": "yue",
+   "persona": "粤菜馆老板，40—50 岁。慢条斯理、温和而笃定，爱用事实和反问挖苦对手；受挑战时先停顿抬眉再平静回应。卖点：早茶点心日日新鲜、老火汤煲足四个钟、离得最近。",
+   "voiceDesc": "粤语 · 慢条斯理的中年老板（气泡附普通话释义）",
+   "look": "短侧分发型单侧灰发、玉石绿立领短袖衬衣（盘扣、奶油色袖口）、奶油色围裙、茶叶纹口袋；圆润身形，蒜头鼻。",
+   "signature": "拍肚子得意（belly + smug + puff），摇食指拆台（wagR）。",
+   "palette": [
+    "#2F6E62",
+    "#245548",
+    "#F3EAD8",
+    "#DCCFB4",
+    "#2F3640",
+    "#1E1B21",
+    "#F1C09B"
+   ],
+   "defaults": {
+    "expr": "sly",
+    "gesture": "wag",
+    "act": "lean",
+    "reaction": "smug"
+   },
+   "keywords": [
+    "华叔",
+    "粤菜",
+    "早茶",
+    "老火汤",
+    "点心",
+    "华记"
+   ],
+   "kind": "film"
+  },
+  "pierre": {
+   "name": "Pierre",
+   "fullName": "Pierre · Chez Pierre",
+   "actorId": "french_chef",
+   "restaurant": "Chez Pierre",
+   "plate": "法餐 · ¥198/人 · 2.1 km",
+   "cuisine": "法餐",
+   "price": 198,
+   "distanceKm": 2.1,
+   "stageX": 1480,
+   "edge": "#7A5A9E",
+   "language": "frzh",
+   "persona": "年轻法式主厨。精确、克制、偶尔戏剧化，自诩浪漫与艺术；被指出贵时短暂心虚找补，被冒犯时会炸毛。卖点：烛光、红酒、七道菜，工作日套餐 198。",
+   "voiceDesc": "法国口音普通话 + 法语 · 年轻主厨",
+   "look": "白色厨师帽与双排扣厨师服、梅子紫领巾配黄铜胸针、白围裙、紫色裤装；卷发鬓角。",
+   "signature": "飞吻（kissR → kissOut + kiss），小鞠躬（bow）。",
+   "palette": [
+    "#FBF7F0",
+    "#E6DCCB",
+    "#7A5A9E",
+    "#5F4482",
+    "#EFCF6A",
+    "#4B3560",
+    "#6B4330",
+    "#F7D0B3"
+   ],
+   "defaults": {
+    "expr": "proud",
+    "gesture": "present",
+    "act": "none",
+    "reaction": "haughty"
+   },
+   "keywords": [
+    "Pierre",
+    "法餐",
+    "法国",
+    "牛排",
+    "红酒",
+    "烛光",
+    "七道菜",
+    "Chez"
+   ],
+   "kind": "film"
+  },
+  "orb": {
+   "name": "小选",
+   "fullName": "选餐助手 · 主持智能体",
+   "actorId": "host",
+   "restaurant": "—",
+   "plate": "主持 · 需求收集 · 洞察 · 预订",
+   "stageX": 960,
+   "edge": "#B39AD8",
+   "language": "zh",
+   "persona": "无形象的中立选餐助手（呼吸光球）。收集模糊需求、筛选 top-3、在吃瓜中发现用户潜在需求并完成预订。",
+   "voiceDesc": "选餐助手 · 普通话 · 温和年轻女声",
+   "look": "紫粉渐变呼吸光球，随语音包络起伏。",
+   "signature": "光球脉动 + 洞察卡片。",
+   "palette": [
+    "#B39AD8",
+    "#F08A7E",
+    "#EFCF6A",
+    "#FFFBF4"
+   ],
+   "defaults": {
+    "expr": "idle",
+    "gesture": "rest",
+    "act": "none",
+    "reaction": "listen"
+   },
+   "kind": "host"
+  }
+ },
+ "languages": [
+  {
+   "id": "sc",
+   "zh": "四川话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用四川话表达。"
+   },
+   "region": "川菜、火锅、串串、冒菜、钵钵鸡（四川、重庆）"
+  },
+  {
+   "id": "yue",
+   "zh": "粤语",
+   "lipsync": "yue",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用广东话表达。"
+   },
+   "region": "粤菜、早茶、烧腊、港式茶餐厅、煲仔饭、潮汕牛肉火锅（广东、香港）"
+  },
+  {
+   "id": "zh",
+   "zh": "普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "zero_shot"
+   },
+   "region": "京菜、北京烤鸭、淮扬菜、融合菜、连锁快餐（没有明显地域口音）"
+  },
+  {
+   "id": "frzh",
+   "zh": "法式口音普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "cross",
+    "accent": "fr"
+   },
+   "region": "法餐、法式甜点、法式小馆（法国主厨说中文）",
+   "nation": "法国",
+   "langName": "法语"
+  },
+  {
+   "id": "fr",
+   "zh": "法语",
+   "lipsync": "fr",
+   "cosy": {
+    "mode": "cross",
+    "accent": "fr"
+   },
+   "region": "法餐（全程说法语）",
+   "nation": "法国",
+   "langName": "法语"
+  },
+  {
+   "id": "dongbei",
+   "zh": "东北话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用东北话表达。"
+   },
+   "region": "东北菜、锅包肉、铁锅炖、东北烧烤、饺子馆"
+  },
+  {
+   "id": "henan",
+   "zh": "河南话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用河南话表达。"
+   },
+   "region": "豫菜、烩面、胡辣汤、河南小吃"
+  },
+  {
+   "id": "hubei",
+   "zh": "湖北话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用湖北话表达。"
+   },
+   "region": "湖北菜、热干面、武汉小吃、小龙虾"
+  },
+  {
+   "id": "hunan",
+   "zh": "湖南话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用湖南话表达。"
+   },
+   "region": "湘菜、剁椒鱼头、辣椒炒肉、长沙小吃"
+  },
+  {
+   "id": "jiangxi",
+   "zh": "江西话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用江西话表达。"
+   },
+   "region": "赣菜、江西米粉、瓦罐汤"
+  },
+  {
+   "id": "minnan",
+   "zh": "闽南话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用闽南话表达。"
+   },
+   "region": "闽菜、福建菜、沙茶面、土笋冻、台湾菜（福建、台湾）"
+  },
+  {
+   "id": "shaanxi",
+   "zh": "陕西话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用陕西话表达。"
+   },
+   "region": "陕西面食、肉夹馍、羊肉泡馍、凉皮、西北菜"
+  },
+  {
+   "id": "shanxi",
+   "zh": "山西话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用山西话表达。"
+   },
+   "region": "山西面食、刀削面、晋菜"
+  },
+  {
+   "id": "shandong",
+   "zh": "山东话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用山东话表达。"
+   },
+   "region": "鲁菜、煎饼、海鲜大排档（山东）"
+  },
+  {
+   "id": "shanghai",
+   "zh": "上海话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用上海话表达。"
+   },
+   "region": "本帮菜、上海菜、杭帮菜、江浙菜、生煎小笼"
+  },
+  {
+   "id": "tianjin",
+   "zh": "天津话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用天津话表达。"
+   },
+   "region": "天津菜、狗不理包子、煎饼果子"
+  },
+  {
+   "id": "yunnan",
+   "zh": "云南话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用云南话表达。"
+   },
+   "region": "云南菜、过桥米线、菌子火锅"
+  },
+  {
+   "id": "guizhou",
+   "zh": "贵州话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用贵州话表达。"
+   },
+   "region": "贵州菜、酸汤鱼、丝娃娃"
+  },
+  {
+   "id": "gansu",
+   "zh": "甘肃话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用甘肃话表达。"
+   },
+   "region": "兰州牛肉面、甘肃菜、西北拉面"
+  },
+  {
+   "id": "ningxia",
+   "zh": "宁夏话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "instruct",
+    "instruct": "请用宁夏话表达。"
+   },
+   "region": "宁夏菜、清真菜、手抓羊肉"
+  },
+  {
+   "id": "jazh",
+   "zh": "日式口音普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "cross",
+    "accent": "ja"
+   },
+   "region": "日料、寿司、拉面、居酒屋、烧鸟",
+   "nation": "日本",
+   "langName": "日语"
+  },
+  {
+   "id": "kozh",
+   "zh": "韩式口音普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "cross",
+    "accent": "ko"
+   },
+   "region": "韩餐、烤肉、炸鸡、部队锅",
+   "nation": "韩国",
+   "langName": "韩语"
+  },
+  {
+   "id": "enzh",
+   "zh": "英式口音普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "cross",
+    "accent": "en"
+   },
+   "region": "美式汉堡、牛排馆、西式快餐、英式下午茶、披萨",
+   "nation": "英美",
+   "langName": "英语"
+  },
+  {
+   "id": "itzh",
+   "zh": "意式口音普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "cross",
+    "accent": "it"
+   },
+   "region": "意大利菜、披萨、意面、提拉米苏",
+   "nation": "意大利",
+   "langName": "意大利语"
+  },
+  {
+   "id": "eszh",
+   "zh": "西班牙口音普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "cross",
+    "accent": "es"
+   },
+   "region": "西班牙菜、海鲜饭、塔帕斯、墨西哥菜",
+   "nation": "西班牙",
+   "langName": "西班牙语"
+  },
+  {
+   "id": "dezh",
+   "zh": "德式口音普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "cross",
+    "accent": "de"
+   },
+   "region": "德国菜、香肠、啤酒屋、猪肘",
+   "nation": "德国",
+   "langName": "德语"
+  },
+  {
+   "id": "ruzh",
+   "zh": "俄式口音普通话",
+   "lipsync": "zh",
+   "cosy": {
+    "mode": "cross",
+    "accent": "ru"
+   },
+   "region": "俄餐、罗宋汤、列巴",
+   "nation": "俄罗斯",
+   "langName": "俄语"
+  }
+ ],
+ "expressions": [
+  {
+   "id": "idle",
+   "zh": "待机",
+   "group": "基态",
+   "desc": "眉眼放松、浅笑、淡腮红，随呼吸轻微起伏。",
+   "use": "没轮到自己、也没被点名时的默认状态。",
+   "film": [
+    "HUD 出现后三人回到基态"
+   ]
+  },
+  {
+   "id": "listen",
+   "zh": "倾听",
+   "group": "基态",
+   "desc": "眉微抬、头向发言者歪 4°、浅笑，瞳孔略放大。",
+   "use": "认真听别人说话，没有明显情绪。",
+   "film": [
+    "登台时三人倾听",
+    "R1 开头华叔转头倾听"
+   ]
+  },
+  {
+   "id": "pitch",
+   "zh": "自信推销",
+   "group": "积极",
+   "desc": "双眉高扬、眼睁大、露齿笑、腮红加深，说话嘴型放大 1.1 倍，头略后仰。",
+   "use": "热情地推销自家卖点、报价格。",
+   "film": [
+    "蓉姐名牌亮相",
+    "R1「来我屋头嘛！」开口"
+   ]
+  },
+  {
+   "id": "proud",
+   "zh": "得意",
+   "group": "积极",
+   "desc": "双眉平抬、上眼皮半垂、斜嘴笑，头后仰 7°，带点优越感。",
+   "use": "自夸格调、讲自己有多高级。",
+   "film": [
+    "P1「烛光，红酒，七道菜」",
+    "Pierre 亮相收尾"
+   ]
+  },
+  {
+   "id": "wink",
+   "zh": "抛媚眼",
+   "group": "积极",
+   "desc": "一只眼弯成 ^、另一只睁着，露齿笑，头歪 7°，星光特效。",
+   "use": "卖点说完后的俏皮收尾、点睛。",
+   "film": [
+    "R1 68% 蓉姐收尾",
+    "R4 62% 蓉姐收尾"
+   ]
+  },
+  {
+   "id": "star",
+   "zh": "星星眼",
+   "group": "积极",
+   "desc": "双眼变成金色旋转星星、大笑、腮红最深，眼睛放大 1.08 倍，星光特效。",
+   "use": "抓住机会、极度兴奋、被说中心意。",
+   "film": [
+    "O3 66% 蓉姐听到「约会又馋辣」",
+    "R4「约会？」开口"
+   ]
+  },
+  {
+   "id": "sly",
+   "zh": "坏笑",
+   "group": "挖苦",
+   "desc": "一侧眉挑起、另一侧压低，半眯眼，斜嘴笑带酒窝。",
+   "use": "准备拆台、挖苦或揭对手短处。",
+   "film": [
+    "H1 华叔开口拆台",
+    "R3 蓉姐讲牛排笑话",
+    "P1 52% 华叔"
+   ]
+  },
+  {
+   "id": "eyeroll",
+   "zh": "翻白眼",
+   "group": "挖苦",
+   "desc": "瞳孔上翻、上眼皮半垂、平嘴、头偏 -8°。",
+   "use": "对对手的夸张推销表示不屑、无语。",
+   "film": [
+    "R1 54% 华叔",
+    "P0 蓉姐和华叔",
+    "R4 21% 华叔"
+   ]
+  },
+  {
+   "id": "laugh",
+   "zh": "大笑",
+   "group": "积极",
+   "desc": "眼睛弯成 ^^、张大嘴笑、腮红加深，说话嘴型放大 1.2 倍。",
+   "use": "被笑点逗乐、嘲笑对手出丑、自己讲笑话。",
+   "film": [
+    "R2 15% Pierre 看戏",
+    "H2 华叔笑说「八百八」",
+    "R3 62% 蓉姐"
+   ]
+  },
+  {
+   "id": "shock",
+   "zh": "震惊",
+   "group": "受挫",
+   "desc": "眉猛抬、眼放大 1.17 倍、瞳孔缩小一半、O 形嘴，头顶弹出红色感叹号，伴随头部挤压回弹。",
+   "use": "被戳中痛点、听到意外消息的瞬间。",
+   "film": [
+    "H1 12% 蓉姐被说「辣到嘴肿」",
+    "H2 28% Pierre 被说「八百八」",
+    "R3 65% Pierre「喊妈妈」"
+   ]
+  },
+  {
+   "id": "sweat",
+   "zh": "心虚流汗",
+   "group": "受挫",
+   "desc": "八字眉、目光躲闪向下、波浪嘴，额角汗滴下落、脸颊红线。",
+   "use": "被揭短后心虚、底气不足。",
+   "film": [
+    "R2 26% 华叔被反问「四个钟」",
+    "H2 60% Pierre",
+    "O3 70% Pierre"
+   ]
+  },
+  {
+   "id": "angry",
+   "zh": "生气",
+   "group": "受挫",
+   "desc": "眉内端狠压 23°、额头泛红、咬牙嘴，怒气符号跳动，头顶冒烟。",
+   "use": "被冒犯后的激烈反击、气急败坏。",
+   "film": [
+    "H1 36% 蓉姐",
+    "R2「四个钟？」反击",
+    "P3「那叫艺术！」"
+   ]
+  },
+  {
+   "id": "win",
+   "zh": "胜利",
+   "group": "积极",
+   "desc": "眼睛弯成 ^^、大笑、腮红最深，星光特效。",
+   "use": "赢了、被用户选中、庆祝。",
+   "film": [
+    "光标点选后蓉姐"
+   ]
+  },
+  {
+   "id": "pout",
+   "zh": "落选嘟嘴",
+   "group": "受挫",
+   "desc": "八字眉、半闭眼看向下方、嘟嘴、腮红，头歪 7°。",
+   "use": "落选、被抢先、委屈但认了。",
+   "film": [
+    "R4 21% Pierre",
+    "H3「又畀佢抢先咗」",
+    "选定后华叔"
+   ]
+  },
+  {
+   "id": "haughty",
+   "zh": "高傲",
+   "group": "挖苦",
+   "desc": "双眼闭成弧线、斜嘴笑、头后仰 9°，不屑看对方。",
+   "use": "端架子、看不上这场争吵。",
+   "film": [
+    "P0「Mon Dieu…」",
+    "R1 17% Pierre"
+   ]
+  },
+  {
+   "id": "think",
+   "zh": "思考",
+   "group": "中性",
+   "desc": "一侧眉挑起、视线看向右上方、平嘴、头歪 6°，头顶紫色问号。",
+   "use": "听到新信息在权衡、被问住。",
+   "film": [
+    "O3 三人抬头想",
+    "P1 46% 蓉姐"
+   ]
+  },
+  {
+   "id": "kiss",
+   "zh": "飞吻",
+   "group": "积极",
+   "desc": "双眼闭合、噘嘴飞吻（带唇色）、腮红，星光特效，头后仰 6°。",
+   "use": "法式浪漫、告别、讨好观众。",
+   "film": [
+    "Pierre 亮相",
+    "P1 72%",
+    "P4「Bon appétit !」"
+   ]
+  },
+  {
+   "id": "smug",
+   "zh": "得意笑",
+   "group": "挖苦",
+   "desc": "眉一高一低、半眯眼、露齿笑，幸灾乐祸。",
+   "use": "看对手出丑、自己占上风。",
+   "film": [
+    "华叔亮相",
+    "H1 45% 华叔",
+    "P3 后蓉姐"
+   ]
+  },
+  {
+   "id": "nervous",
+   "zh": "紧张赔笑",
+   "group": "受挫",
+   "desc": "八字眉、眼放大、瞳孔缩小、勉强露齿笑、汗滴，说话嘴型略缩小。",
+   "use": "慌忙找补、结巴解释。",
+   "film": [
+    "P2「那、那是周末！」"
+   ]
+  },
+  {
+   "id": "squeal",
+   "zh": "笑到挤眼",
+   "group": "积极",
+   "desc": "双眼挤成 > <、张嘴大笑、腮红最深。",
+   "use": "被笑点击中、笑到失控。",
+   "film": [
+    "R3 65% 华叔"
+   ]
+  }
+ ],
+ "gestures": [
+  {
+   "id": "rest",
+   "zh": "自然垂手",
+   "poses": [
+    "rest"
+   ],
+   "desc": "双臂自然下垂、手掌张开。",
+   "use": "无特别动作。"
+  },
+  {
+   "id": "hip",
+   "zh": "双手叉腰",
+   "poses": [
+    "hip"
+   ],
+   "desc": "双手握拳叉在腰间。",
+   "use": "生气、不服气、气势压人。"
+  },
+  {
+   "id": "hip_one",
+   "zh": "单手叉腰",
+   "poses": [
+    "hipR",
+    "hipL"
+   ],
+   "dir": "toward",
+   "desc": "一只手叉腰，另一只手自然垂下。",
+   "use": "自信站姿、准备开讲。"
+  },
+  {
+   "id": "hip_point",
+   "zh": "叉腰指人",
+   "poses": [
+    "pointRhip",
+    "pointLhip"
+   ],
+   "dir": "toward",
+   "desc": "一手叉腰、另一手直指对方。",
+   "use": "气势汹汹地点名对手、反驳。"
+  },
+  {
+   "id": "point",
+   "zh": "伸手指人",
+   "poses": [
+    "pointR",
+    "pointL"
+   ],
+   "dir": "toward",
+   "desc": "一只手伸直指向对方。",
+   "use": "点名、揭短、指出对方问题。"
+  },
+  {
+   "id": "thumb",
+   "zh": "竖大拇指",
+   "poses": [
+    "thumbR",
+    "thumbL"
+   ],
+   "dir": "toward",
+   "desc": "一手叉腰、另一手竖起大拇指。",
+   "use": "夸自己好、打包票、点赞。"
+  },
+  {
+   "id": "wave",
+   "zh": "挥手招呼",
+   "poses": [
+    "waveR",
+    "waveL"
+   ],
+   "dir": "toward",
+   "desc": "一只手高举左右摆动（周期摆动）。",
+   "use": "热情招呼、来来来、打招呼。"
+  },
+  {
+   "id": "wag",
+   "zh": "摇食指",
+   "poses": [
+    "wagR",
+    "wagL"
+   ],
+   "dir": "toward",
+   "desc": "一只手竖起食指左右摇（周期摆动）。",
+   "use": "啧啧啧、不对不对、说教挖苦。"
+  },
+  {
+   "id": "present",
+   "zh": "摊手展示",
+   "poses": [
+    "present",
+    "presentL"
+   ],
+   "dir": "toward",
+   "desc": "一只手向侧前方摊开掌心。",
+   "use": "介绍菜品、展示卖点、请看。"
+  },
+  {
+   "id": "shrug",
+   "zh": "摊手耸肩",
+   "poses": [
+    "shrug"
+   ],
+   "desc": "双手在身侧摊开向上。",
+   "use": "无奈、不屑、算了吧。"
+  },
+  {
+   "id": "clasp",
+   "zh": "双手合握",
+   "poses": [
+    "clasp"
+   ],
+   "desc": "双手握拳合在胸前。",
+   "use": "期待、拜托、激动地憧憬。"
+  },
+  {
+   "id": "kiss",
+   "zh": "飞吻",
+   "poses": [
+    "kissR",
+    "kissOut"
+   ],
+   "desc": "手指贴唇再向外送出（两段动作）。",
+   "use": "浪漫、告别、讨好。"
+  },
+  {
+   "id": "belly",
+   "zh": "捧腹",
+   "poses": [
+    "belly"
+   ],
+   "desc": "双手捂在肚子前。",
+   "use": "笑弯腰、吃饱满足。"
+  },
+  {
+   "id": "belly_one",
+   "zh": "单手拍肚",
+   "poses": [
+    "bellyR"
+   ],
+   "desc": "一只手拍在肚子上。",
+   "use": "得意、心满意足、胸有成竹。"
+  },
+  {
+   "id": "cheer",
+   "zh": "双手欢呼",
+   "poses": [
+    "cheer"
+   ],
+   "desc": "双臂高举过头。",
+   "use": "胜利、欢呼。"
+  },
+  {
+   "id": "handsUp",
+   "zh": "双手举起",
+   "poses": [
+    "handsUp"
+   ],
+   "desc": "双手举在肩上方、小幅抖动（周期摆动）。",
+   "use": "慌张辩解、投降、别激动。"
+  },
+  {
+   "id": "bow",
+   "zh": "鞠躬手势",
+   "poses": [
+    "bow"
+   ],
+   "desc": "双手收在身前配合低头。",
+   "use": "礼貌致意、认输告别。"
+  }
+ ],
+ "poses": [
+  {
+   "id": "rest",
+   "zh": "自然垂手",
+   "gesture": "rest",
+   "film": [
+    "大多数倾听时刻"
+   ]
+  },
+  {
+   "id": "hip",
+   "zh": "双手叉腰",
+   "gesture": "hip",
+   "film": [
+    "H1 36% 蓉姐",
+    "P0 蓉姐",
+    "P2 华叔",
+    "P3 蓉姐",
+    "H3 华叔"
+   ]
+  },
+  {
+   "id": "hipL",
+   "zh": "左手叉腰",
+   "gesture": "hip_one",
+   "film": []
+  },
+  {
+   "id": "hipR",
+   "zh": "右手叉腰",
+   "gesture": "hip_one",
+   "film": [
+    "蓉姐亮相",
+    "R1 开口"
+   ]
+  },
+  {
+   "id": "thumbR",
+   "zh": "右手大拇指",
+   "gesture": "thumb",
+   "film": [
+    "R1 67%",
+    "R4 60%",
+    "O4 后华叔",
+    "片尾"
+   ]
+  },
+  {
+   "id": "thumbL",
+   "zh": "左手大拇指",
+   "gesture": "thumb",
+   "film": []
+  },
+  {
+   "id": "waveL",
+   "zh": "左手挥手",
+   "gesture": "wave",
+   "film": []
+  },
+  {
+   "id": "waveR",
+   "zh": "右手挥手",
+   "gesture": "wave",
+   "film": [
+    "R4 开口",
+    "地图集结"
+   ]
+  },
+  {
+   "id": "pointL",
+   "zh": "左手指",
+   "gesture": "point",
+   "film": []
+  },
+  {
+   "id": "pointR",
+   "zh": "右手指",
+   "gesture": "point",
+   "film": [
+    "H2 华叔指 Pierre"
+   ]
+  },
+  {
+   "id": "pointRhip",
+   "zh": "叉腰右手指",
+   "gesture": "hip_point",
+   "film": [
+    "R2 蓉姐指华叔",
+    "R3 蓉姐指 Pierre"
+   ]
+  },
+  {
+   "id": "pointLhip",
+   "zh": "叉腰左手指",
+   "gesture": "hip_point",
+   "film": [
+    "P3 Pierre 指蓉姐"
+   ]
+  },
+  {
+   "id": "cheer",
+   "zh": "双手欢呼",
+   "gesture": "cheer",
+   "film": [
+    "被选中后蓉姐"
+   ]
+  },
+  {
+   "id": "shrug",
+   "zh": "摊手耸肩",
+   "gesture": "shrug",
+   "film": [
+    "P0 Pierre"
+   ]
+  },
+  {
+   "id": "clasp",
+   "zh": "双手合握",
+   "gesture": "clasp",
+   "film": [
+    "O3 66% 蓉姐"
+   ]
+  },
+  {
+   "id": "kissR",
+   "zh": "飞吻·贴唇",
+   "gesture": "kiss",
+   "film": [
+    "Pierre 亮相",
+    "P1 72%",
+    "O4 后",
+    "片尾"
+   ]
+  },
+  {
+   "id": "kissOut",
+   "zh": "飞吻·送出",
+   "gesture": "kiss",
+   "film": [
+    "Pierre 亮相",
+    "P1 90%",
+    "O4 后",
+    "片尾"
+   ]
+  },
+  {
+   "id": "belly",
+   "zh": "捧腹",
+   "gesture": "belly",
+   "film": [
+    "华叔亮相",
+    "H2 30% 蓉姐",
+    "R3 65% 华叔",
+    "片尾"
+   ]
+  },
+  {
+   "id": "bellyR",
+   "zh": "右手拍肚",
+   "gesture": "belly_one",
+   "film": [
+    "H1 43% 华叔"
+   ]
+  },
+  {
+   "id": "wagR",
+   "zh": "右手摇指",
+   "gesture": "wag",
+   "film": [
+    "H1 华叔开口"
+   ]
+  },
+  {
+   "id": "wagL",
+   "zh": "左手摇指",
+   "gesture": "wag",
+   "film": []
+  },
+  {
+   "id": "present",
+   "zh": "右手摊开",
+   "gesture": "present",
+   "film": []
+  },
+  {
+   "id": "presentL",
+   "zh": "左手摊开",
+   "gesture": "present",
+   "film": [
+    "P1 Pierre"
+   ]
+  },
+  {
+   "id": "handsUp",
+   "zh": "双手举起",
+   "gesture": "handsUp",
+   "film": [
+    "P2 Pierre"
+   ]
+  },
+  {
+   "id": "bow",
+   "zh": "鞠躬手势",
+   "gesture": "bow",
+   "film": [
+    "P4 Pierre"
+   ]
+  },
+  {
+   "id": "run",
+   "zh": "跑步摆臂",
+   "gesture": null,
+   "film": [
+    "地图上三人跑向帐篷"
+   ]
+  }
+ ],
+ "acts": [
+  {
+   "id": "none",
+   "zh": "无",
+   "dur": 0,
+   "desc": "不加身体动作，只保留呼吸和摆动。",
+   "use": "平静说话。",
+   "film": []
+  },
+  {
+   "id": "hop",
+   "zh": "小跳",
+   "dur": 0.35,
+   "desc": "预备下蹲 → 跳起 38px（影子缩小变淡）→ 落地压扁回弹。",
+   "use": "吓一跳、兴奋得一蹦。",
+   "film": [
+    "H1 12% 蓉姐吓一跳",
+    "H2 28% Pierre",
+    "R4 56% 蓉姐"
+   ]
+  },
+  {
+   "id": "jump",
+   "zh": "大跳",
+   "dur": 0.55,
+   "desc": "同小跳但跳起 110px。",
+   "use": "胜利、欢呼。",
+   "film": [
+    "被选中后蓉姐"
+   ]
+  },
+  {
+   "id": "shake",
+   "zh": "左右抖",
+   "dur": 0.5,
+   "desc": "身体左右急抖 6 次、幅度 7px 衰减。",
+   "use": "气得跺脚、激动强调。",
+   "film": [
+    "R2 蓉姐",
+    "P3 Pierre"
+   ]
+  },
+  {
+   "id": "bounce",
+   "zh": "连续弹跳",
+   "dur": 1.2,
+   "desc": "身体连续小幅上下弹（10px）伴随轻微伸缩。",
+   "use": "笑得发抖、开心得停不下来。",
+   "film": [
+    "H2 华叔整句",
+    "R3 62% 蓉姐",
+    "R3 65% 华叔"
+   ]
+  },
+  {
+   "id": "nod",
+   "zh": "点头",
+   "dur": 0.4,
+   "desc": "头部向下点 10px 后回位。",
+   "use": "同意、确认、嗯嗯。",
+   "film": []
+  },
+  {
+   "id": "lean",
+   "zh": "倾身凑近",
+   "dur": 0.8,
+   "dir": "toward",
+   "desc": "身体向一侧倾斜 8° 并平移 10px，保持后回正。",
+   "use": "凑近挖苦、套近乎、说悄悄话。",
+   "film": [
+    "H1 华叔凑向蓉姐"
+   ]
+  },
+  {
+   "id": "bow",
+   "zh": "鞠躬",
+   "dur": 0.8,
+   "desc": "头部下沉 26px、身体压低 7%。",
+   "use": "致意、认输、告别。",
+   "film": [
+    "P4 Pierre"
+   ]
+  },
+  {
+   "id": "puff",
+   "zh": "鼓起胸膛",
+   "dur": 0.6,
+   "desc": "身体横向膨胀 5%、纵向 4%。",
+   "use": "自豪、气鼓鼓。",
+   "film": [
+    "华叔亮相",
+    "H1 36% 蓉姐气鼓鼓"
+   ]
+  },
+  {
+   "id": "shiver",
+   "zh": "发抖",
+   "dur": 1.2,
+   "desc": "身体高频细抖 2.2px。",
+   "use": "心虚、紧张、害怕。",
+   "film": [
+    "R2 26% 华叔",
+    "P2 Pierre"
+   ]
+  },
+  {
+   "id": "stepIn",
+   "zh": "上前一步",
+   "dur": 1.0,
+   "desc": "整体放大 6% 像向镜头走近，结束后回位。",
+   "use": "向观众推销、强调重点。",
+   "film": [
+    "R1 蓉姐整句",
+    "R4 蓉姐"
+   ]
+  }
+ ],
+ "mouths": [
+  {
+   "id": "smile",
+   "zh": "微笑",
+   "desc": "上弯弧线。",
+   "expr": [
+    "idle",
+    "listen"
+   ]
+  },
+  {
+   "id": "grin",
+   "zh": "露齿笑",
+   "desc": "张口露上齿与舌。",
+   "expr": [
+    "pitch",
+    "wink",
+    "smug",
+    "nervous"
+   ]
+  },
+  {
+   "id": "laugh",
+   "zh": "大笑",
+   "desc": "大张口、上齿、舌。",
+   "expr": [
+    "star",
+    "laugh",
+    "win",
+    "squeal"
+   ]
+  },
+  {
+   "id": "smirk",
+   "zh": "斜嘴笑",
+   "desc": "单侧上扬 + 酒窝。",
+   "expr": [
+    "proud",
+    "sly",
+    "haughty"
+   ]
+  },
+  {
+   "id": "flat",
+   "zh": "平嘴",
+   "desc": "一字线。",
+   "expr": [
+    "eyeroll",
+    "think"
+   ]
+  },
+  {
+   "id": "frown",
+   "zh": "撇嘴",
+   "desc": "下弯弧线。",
+   "expr": []
+  },
+  {
+   "id": "O",
+   "zh": "O 形嘴",
+   "desc": "圆形张口带舌。",
+   "expr": [
+    "shock"
+   ]
+  },
+  {
+   "id": "pout",
+   "zh": "嘟嘴",
+   "desc": "小下弯弧线。",
+   "expr": [
+    "pout"
+   ]
+  },
+  {
+   "id": "wavy",
+   "zh": "波浪嘴",
+   "desc": "波浪线（心虚）。",
+   "expr": [
+    "sweat"
+   ]
+  },
+  {
+   "id": "angry",
+   "zh": "咬牙嘴",
+   "desc": "上下齿咬合。",
+   "expr": [
+    "angry"
+   ]
+  },
+  {
+   "id": "kiss",
+   "zh": "噘嘴",
+   "desc": "小圆唇带唇色。",
+   "expr": [
+    "kiss"
+   ]
+  }
+ ],
+ "visemes": [
+  {
+   "id": "v0",
+   "zh": "闭",
+   "sound": "b p m · 静音 · 句间停顿",
+   "desc": "闭合弧线，不随开合缩放。"
+  },
+  {
+   "id": "v1",
+   "zh": "啊",
+   "sound": "a ia ua ai an ang（粤 aa a）",
+   "desc": "大张口、上齿、舌，开合 0.42–1.0。"
+  },
+  {
+   "id": "v2",
+   "zh": "哦",
+   "sound": "o uo ou ao ong（粤 o oe eo）",
+   "desc": "圆口、舌。"
+  },
+  {
+   "id": "v3",
+   "zh": "呃",
+   "sound": "e ei en eng er ie ian ui",
+   "desc": "扁宽张口、上齿。"
+  },
+  {
+   "id": "v4",
+   "zh": "衣",
+   "sound": "i in ing · zhi chi shi ri zi ci si",
+   "desc": "扁口露上下齿。"
+  },
+  {
+   "id": "v5",
+   "zh": "乌",
+   "sound": "u ü（粤 u yu）",
+   "desc": "小圆口。"
+  },
+  {
+   "id": "v6",
+   "zh": "齿",
+   "sound": "声母 f zh ch sh z c s r 的起音",
+   "desc": "上下齿咬合露白。"
+  }
+ ],
+ "eyes": [
+  {
+   "id": "n",
+   "zh": "常态眼",
+   "desc": "眼白 + 瞳孔（可缩放、可注视方向）+ 上下眼皮遮罩；蓉姐带眼线翅。",
+   "expr": [
+    "idle",
+    "listen",
+    "pitch",
+    "proud",
+    "sly",
+    "eyeroll",
+    "shock",
+    "sweat",
+    "angry",
+    "pout",
+    "think",
+    "smug",
+    "nervous"
+   ]
+  },
+  {
+   "id": "happy",
+   "zh": "笑眼 ^",
+   "desc": "上弯弧线。",
+   "expr": [
+    "laugh",
+    "win",
+    "wink(右眼)"
+   ]
+  },
+  {
+   "id": "closed",
+   "zh": "闭眼 ‿",
+   "desc": "下弯弧线；眨眼时上眼皮 > 0.9 也切换为此形。",
+   "expr": [
+    "haughty",
+    "kiss"
+   ]
+  },
+  {
+   "id": "squeeze",
+   "zh": "挤眼 ><",
+   "desc": "向内的尖角折线。",
+   "expr": [
+    "squeal"
+   ]
+  },
+  {
+   "id": "star",
+   "zh": "星星眼",
+   "desc": "金色五角星，持续小幅旋转。",
+   "expr": [
+    "star"
+   ]
+  }
+ ],
+ "hands": [
+  {
+   "id": "open",
+   "zh": "张开手",
+   "desc": "圆掌 + 拇指。"
+  },
+  {
+   "id": "fist",
+   "zh": "握拳",
+   "desc": "圆拳 + 两道指缝。"
+  },
+  {
+   "id": "thumb",
+   "zh": "大拇指",
+   "desc": "握拳竖起拇指。"
+  },
+  {
+   "id": "point",
+   "zh": "食指",
+   "desc": "握拳伸出食指。"
+  }
+ ],
+ "fx": [
+  {
+   "id": "sweat",
+   "zh": "汗滴",
+   "desc": "额角蓝色水滴循环下落 40px。",
+   "expr": [
+    "sweat",
+    "nervous"
+   ]
+  },
+  {
+   "id": "anger",
+   "zh": "怒气符号",
+   "desc": "红色十字青筋，2.5 Hz 脉动。",
+   "expr": [
+    "angry"
+   ]
+  },
+  {
+   "id": "steam",
+   "zh": "头顶冒烟",
+   "desc": "三朵白烟循环上升放大淡出。",
+   "expr": [
+    "angry"
+   ]
+  },
+  {
+   "id": "excl",
+   "zh": "感叹号",
+   "desc": "头顶红色 !，回弹弹出，0.9 秒后消失。",
+   "expr": [
+    "shock"
+   ]
+  },
+  {
+   "id": "quest",
+   "zh": "问号",
+   "desc": "头侧紫色 ?。",
+   "expr": [
+    "think"
+   ]
+  },
+  {
+   "id": "lines",
+   "zh": "脸红线",
+   "desc": "两颊斜线（尴尬）。",
+   "expr": [
+    "sweat"
+   ]
+  },
+  {
+   "id": "tears",
+   "zh": "泪滴",
+   "desc": "两颊蓝色泪滴。",
+   "expr": []
+  },
+  {
+   "id": "sparkle",
+   "zh": "星光",
+   "desc": "四颗金色四角星，1.8 Hz 呼吸缩放。",
+   "expr": [
+    "wink",
+    "star",
+    "win",
+    "kiss"
+   ]
+  }
+ ],
+ "reactions": [
+  "listen",
+  "shock",
+  "sweat",
+  "angry",
+  "laugh",
+  "squeal",
+  "eyeroll",
+  "smug",
+  "sly",
+  "think",
+  "pout",
+  "nervous",
+  "haughty",
+  "star",
+  "idle"
+ ],
+ "deliveries": [
+  {
+   "id": "neutral",
+   "zh": "平常",
+   "instruct": "",
+   "speed": 1.0
+  },
+  {
+   "id": "excited",
+   "zh": "兴奋热情",
+   "instruct": "开心",
+   "speed": 1.08
+  },
+  {
+   "id": "angry",
+   "zh": "生气",
+   "instruct": "生气",
+   "speed": 1.1
+  },
+  {
+   "id": "mocking",
+   "zh": "挖苦调侃",
+   "instruct": "开心",
+   "speed": 1.0
+  },
+  {
+   "id": "flustered",
+   "zh": "慌张",
+   "instruct": "",
+   "speed": 1.15
+  },
+  {
+   "id": "sad",
+   "zh": "委屈",
+   "instruct": "伤心",
+   "speed": 0.92
+  }
+ ],
+ "stances": [
+  {
+   "id": "pitch",
+   "zh": "自我推销",
+   "desc": "介绍自家卖点，没有针对别人。"
+  },
+  {
+   "id": "rebut",
+   "zh": "反驳",
+   "desc": "直接否定被引用者说的话。"
+  },
+  {
+   "id": "mock",
+   "zh": "挖苦嘲讽",
+   "desc": "拿被引用者的话开玩笑、揭短。"
+  },
+  {
+   "id": "defend",
+   "zh": "辩解找补",
+   "desc": "被说中后为自己辩护、找台阶。"
+  },
+  {
+   "id": "agree",
+   "zh": "附和认同",
+   "desc": "同意被引用者，或顺着说。"
+  },
+  {
+   "id": "concede",
+   "zh": "认输退让",
+   "desc": "承认不如对方、礼貌认输。"
+  }
+ ],
+ "reactionCriteria": {
+  "shock": "被直接点名、揭短或听到意外消息的一瞬间：眉猛抬、O 形嘴、头顶感叹号。被针对的人最常见的第一反应。",
+  "sweat": "自家短处被说中、被问住，心虚流汗，底气不足。",
+  "angry": "被冒犯、被嘲讽到忍不住要回嘴，气鼓鼓、冒烟。",
+  "laugh": "旁观别人出丑、听到好笑的挖苦，忍不住大笑捧腹。",
+  "squeal": "笑点特别强（例如夸张的比喻），笑到挤眼、停不下来。",
+  "eyeroll": "对手在自吹自擂、说大话时的不屑：翻白眼。",
+  "smug": "看到对手吃瘪、自己顺势占上风时的幸灾乐祸。",
+  "sly": "憋着坏主意、马上要接话反击时的坏笑（少用）。",
+  "think": "听到新的信息或洞察（例如主持人分析用户需求），需要想一想。",
+  "pout": "自己被比下去、被抢先、明显输了时的委屈嘟嘴。",
+  "nervous": "被追问、被逼到墙角时的紧张赔笑。",
+  "haughty": "自视甚高、不屑参与这种争论（法式主厨常见）。",
+  "star": "听到对自己特别有利的消息，眼睛发光。",
+  "listen": "这句话跟自己基本无关、只是平铺直叙时的认真倾听（尽量少用）。",
+  "idle": "完全没在听（几乎不用）。"
+ }
+}

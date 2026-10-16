@@ -1,0 +1,11 @@
+[
+ {"id":"O1","mode":"zero_shot","text":"晚上好！今晚想吃点什么？说个感觉就行。","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_orb.wav","prompt_text":"晚上好呀，我是你的选餐助手。今晚想吃点什么，随便说说就行。"},
+ {"id":"R1","mode":"instruct","instruct":"请用四川话表达。","text":"来我屋头嘛！正宗川菜，麻辣鲜香，人均才八十五！","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_rong.wav"},
+ {"id":"R3","mode":"instruct","instruct":"请用四川话表达。","text":"他那个牛排三分熟，切开还在喊妈妈咧！","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_rong.wav"},
+ {"id":"R2angry","mode":"instruct","instruct":"请非常生气地说一句话。","text":"四个钟？等你汤好，人都饿晕了！","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_rong.wav"},
+ {"id":"H1","mode":"instruct","instruct":"请用广东话表达。","text":"辣到个嘴都肿晒，仲点拍拖啊？嚟饮早茶啦，老火汤煲足四个钟！","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_hua.wav"},
+ {"id":"H2","mode":"instruct","instruct":"请用广东话表达。","text":"七道菜？人均八百八，食完要食成个月公仔面喎！","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_hua.wav"},
+ {"id":"P0","mode":"cross","text":"Mon Dieu…","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_pierre.wav"},
+ {"id":"P1","mode":"cross","text":"你们太吵了。烛光，红酒，七道菜，这才叫浪漫。","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_pierre.wav"},
+ {"id":"P4","mode":"cross","text":"Bon appétit !","prompt_wav":"/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_pierre.wav"}
+]

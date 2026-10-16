@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#F6EFE4"><title>今晚吃谁 · 主理人路演</title></head>
+<body><div id="app">
+<header><a class="brand" href="#">今晚吃谁<span>DINNER, WITH A LITTLE DRAMA.</span></a><div class="edition">三位主理人 <i></i> 一起争取你的晚餐</div><button id="reset" class="quiet">重新开始 ↻</button></header>
+<main>
+ <section class="stage-panel" aria-label="主理人路演">
+  <div class="stage-heading"><div class="eyebrow">THE DINNER AUDITION · VOL. 02</div><h1>一顿饭，<em>三种主张。</em></h1><p id="phase-name">说说想吃什么</p><nav id="steps" aria-label="体验进度"><span class="current">01 需求</span><span>02 汇合</span><span>03 亮相</span><span>04 拆台</span><span>05 追问</span><span>06 选择</span></nav></div>
+  <div id="request" class="request-panel"><form id="request-form"><label for="request-text">今晚这顿饭，你想怎么吃？</label><div class="input-row"><input id="request-text" maxlength="180" value="想和朋友吃一顿，预算别太高，又有点氛围" required><button class="primary" data-needs-ready disabled>听听三家的主张 ↗</button></div><small>先不用想清楚。听他们聊一轮，再发现自己在意什么。</small></form></div>
+  <div id="viewport"><div id="loading">正在准备今晚的舞台…</div><div id="bubbles"></div><div class="viewport-help">拖动看一看 · 滚轮缩放</div><div id="caption" aria-live="polite"></div><div id="result" hidden><strong></strong><p></p></div></div>
+  <div id="decision" class="decision-panel" hidden>
+   <form id="followup-form"><label for="preference">听下来，你更在意什么？</label><div class="input-row"><input id="preference" maxlength="180" placeholder="比如：想清淡一点，预算一百以内" required><button class="secondary">问问当前主理人</button></div><div class="preference-chips"><button type="button" data-preference="想清淡一点">清淡一点</button><button type="button" data-preference="预算实惠，热闹一点">实惠热闹</button><button type="button" data-preference="想要安静浪漫，适合约会">安静约会</button></div></form>
+   <button id="choose" class="primary" data-needs-ready disabled>今晚选 川味小馆</button>
+  </div>
+  <div class="stage-bottom"><div><span class="live-dot"></span><span id="stage-status">资产准备中</span><small id="model-stats">本地模拟 · 三位主理人 · 六阶段体验</small></div><button id="demo" class="primary" data-needs-ready disabled>开始一场小辩论 ↗</button></div>
+ </section>
+ <aside><div class="rail-heading"><span class="eyebrow">MEET THE OWNERS</span><h2>今天，谁来请客？</h2><p>点一位主理人，向 TA 追问，或选 TA 的店。</p></div><div id="actors" class="actor-list"></div>
+  <details class="rehearsal"><summary>角色排练室 <span>表情、动作与口型</span></summary>
+   <div class="rail-section"><div class="section-top"><h3>肢体语言</h3><span>含持续说话与倾听</span></div><div id="actions" class="chips"></div></div>
+   <div class="rail-section"><div class="section-top"><h3>一点小表情</h3><span>18 种表情组合</span></div><div id="expressions" class="chips expressions"></div></div>
+   <div class="rail-section"><div class="section-top"><h3>嘴型排练</h3><span>九种嘴型</span></div><div id="visemes" class="chips"></div><div class="face-angles"><button data-face-angle="0">正面近看</button><button data-face-angle="45">侧看 45°</button><button data-face-angle="80">侧看 80°</button></div></div>
+   <div class="rail-section voice"><div class="section-top"><h3>给 TA 一句话</h3></div><label class="sr-only" for="dialogue">测试对白</label><textarea id="dialogue" maxlength="180" rows="3">想吃得热闹一点，来我这儿呀。</textarea><div class="voice-actions"><button id="speak" class="secondary">文字 + 手势</button><button id="audio" class="secondary">▶ 试听对白</button></div><p id="voice-mode" class="note">文字不动嘴 · 音频驱动口型</p></div>
+  </details>
+  <button id="stop" class="stop-button">Ⅱ 打断当前表演</button>
+  <details class="technical"><summary>资产检查与接入信息</summary><label><input id="skeleton" type="checkbox"> 显示骨骼</label><label><input id="solo" type="checkbox"> 只看当前角色</label><label><input id="face-mode" type="checkbox" checked> 图形化脸部</label><p>三层面部贴图、18 表情、9 嘴型。演示音频走音量兜底；传入 visemes 时按音频时钟切换。当前偏好回复为本地规则模拟。</p><pre id="diagnostics"></pre></details>
+  <p class="rail-note">三家店的卖点均为虚构演示。<br>偏好回复使用本地模拟，尚未连接真实智能体。</p>
+ </aside>
+</main>
+<footer>小小餐馆，大大戏精。<span>先听他们说，再选你在意的。</span></footer>
+</div><script type="module" src="/src/main.js"></script></body></html>

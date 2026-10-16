@@ -1,0 +1,51 @@
+{
+  "actorId": "cantonese_owner",
+  "height": 1.7,
+  "joints": 22,
+  "clips": {
+    "idle": 3.0,
+    "run": 0.8,
+    "arrive": 0.9,
+    "wave": 2.0,
+    "present": 2.4,
+    "point": 1.6,
+    "nod": 1.3,
+    "disagree": 1.6,
+    "recoil": 1.2,
+    "celebrate": 2.2,
+    "signature": 2.6
+  },
+  "landmarks": {
+    "hip": 0.7,
+    "knee": 0.36,
+    "ankle": 0.09,
+    "shoulder": 1.16,
+    "elbow": 0.96,
+    "wrist": 0.78,
+    "neck": 1.25,
+    "head": 1.29,
+    "face": 1.36,
+    "eyes": 1.45,
+    "brow": 1.51,
+    "legx": 0.15,
+    "kneex": 0.2,
+    "anklex": 0.23,
+    "armx": 0.24,
+    "elbowx": 0.36,
+    "wristx": 0.46
+  },
+  "morphTargets": [
+    "MouthOpen",
+    "Smile",
+    "Frown",
+    "BrowUp",
+    "BrowDown",
+    "BlinkLeft",
+    "BlinkRight"
+  ],
+  "facialQuality": "Approximate surface deformation. No mouth cavity, teeth, phoneme-specific blendshapes or eye rig.",
+  "weighting": "Anatomical region fallback; review required for extreme poses.",
+  "vertices": 19609,
+  "triangles": 34277,
+  "glbBytes": 8848068
+}

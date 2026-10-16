@@ -1,0 +1,1422 @@
+{
+  "initial": {
+    "ready": true,
+    "phase": 0,
+    "phaseName": "说说想吃什么",
+    "sessionId": "local",
+    "selected": "sichuan_owner",
+    "speaking": null,
+    "audioTime": null,
+    "winner": null,
+    "fps": 6,
+    "scene": "map",
+    "environment": {
+      "status": "ready",
+      "triangles": 200000,
+      "ground": 0.3702493025670246
+    },
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "visible": false,
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 9495,
+        "faceSurfaceDepth": 0.20228194817900658,
+        "prop": "ladle"
+      },
+      {
+        "id": "cantonese_owner",
+        "visible": false,
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 4482,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "teapot"
+      },
+      {
+        "id": "french_chef",
+        "visible": false,
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 10392,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "whisk"
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "environment.ready",
+        "sessionId": "local",
+        "triangles": 200000
+      }
+    ]
+  },
+  "result": {
+    "ok": true
+  },
+  "complete": {
+    "ready": true,
+    "phase": 5,
+    "phaseName": "今晚的选择",
+    "sessionId": "local",
+    "selected": "cantonese_owner",
+    "speaking": null,
+    "audioTime": null,
+    "winner": "cantonese_owner",
+    "fps": 11,
+    "scene": "stage",
+    "environment": {
+      "status": "ready",
+      "triangles": 200000,
+      "ground": 0.3702493025670246
+    },
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "visible": false,
+        "clip": "run",
+        "emotion": "disappointed",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          -3.600000000000001,
+          0.085,
+          -0.6
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 9495,
+        "faceSurfaceDepth": 0.20228194817900658,
+        "prop": "ladle"
+      },
+      {
+        "id": "cantonese_owner",
+        "visible": true,
+        "clip": "celebrate",
+        "emotion": "overjoyed",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          0,
+          0.085,
+          -0.12
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 4482,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "teapot"
+      },
+      {
+        "id": "french_chef",
+        "visible": false,
+        "clip": "run",
+        "emotion": "disappointed",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          3.600000000000001,
+          0.085,
+          -0.6
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 10392,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "whisk"
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "environment.ready",
+        "sessionId": "local",
+        "triangles": 200000
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 0,
+        "name": "说说想吃什么"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 1,
+        "name": "筛选与汇合"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "actors.gathered",
+        "sessionId": "local"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 2,
+        "name": "主理人亮相"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      },
+      {
+        "type": "stage.ready",
+        "sessionId": "local"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-2"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-2"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-3"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "animation": "stomp"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "point"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-3"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "local-4"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "animation": "recoil"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "local-4"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 4,
+        "name": "追问与比较"
+      },
+      {
+        "type": "user.preference",
+        "sessionId": "local",
+        "text": "想清淡一点",
+        "focus": "cantonese_owner"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-5"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-5"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 5,
+        "name": "今晚的选择"
+      },
+      {
+        "type": "user.selected",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.exited",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.exited",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "celebrate"
+      },
+      {
+        "type": "story.completed",
+        "sessionId": "local",
+        "winner": "cantonese_owner"
+      }
+    ]
+  },
+  "cancelFilter": {
+    "ok": false,
+    "reason": "cancelled"
+  },
+  "expressions": [
+    {
+      "name": "neutral",
+      "actual": "neutral"
+    },
+    {
+      "name": "smile",
+      "actual": "smile"
+    },
+    {
+      "name": "smug",
+      "actual": "smug"
+    },
+    {
+      "name": "disdain",
+      "actual": "disdain"
+    },
+    {
+      "name": "shocked",
+      "actual": "shocked"
+    },
+    {
+      "name": "angry",
+      "actual": "angry"
+    },
+    {
+      "name": "embarrassed",
+      "actual": "embarrassed"
+    },
+    {
+      "name": "overjoyed",
+      "actual": "overjoyed"
+    },
+    {
+      "name": "disappointed",
+      "actual": "disappointed"
+    }
+  ],
+  "shapes": [
+    "X",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "timeline": {
+    "ready": true,
+    "phase": 3,
+    "phaseName": "推销与拆台",
+    "sessionId": "local",
+    "selected": "sichuan_owner",
+    "speaking": "local-8",
+    "audioTime": 0.912,
+    "winner": null,
+    "fps": 6,
+    "scene": "stage",
+    "environment": {
+      "status": "ready",
+      "triangles": 200000,
+      "ground": 0.3702493025670246
+    },
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "visible": true,
+        "clip": "speakA",
+        "emotion": "angry",
+        "mouth": 0.13923466344235638,
+        "mouthShape": "H",
+        "position": [
+          -1.55,
+          0.085,
+          0
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 9495,
+        "faceSurfaceDepth": 0.20228194817900658,
+        "prop": "ladle"
+      },
+      {
+        "id": "cantonese_owner",
+        "visible": true,
+        "clip": "listen",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          0,
+          0.085,
+          -0.12
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 4482,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "teapot"
+      },
+      {
+        "id": "french_chef",
+        "visible": true,
+        "clip": "listen",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          1.55,
+          0.085,
+          0
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 10392,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "whisk"
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "environment.ready",
+        "sessionId": "local",
+        "triangles": 200000
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 0,
+        "name": "说说想吃什么"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 1,
+        "name": "筛选与汇合"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "actors.gathered",
+        "sessionId": "local"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 2,
+        "name": "主理人亮相"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      },
+      {
+        "type": "stage.ready",
+        "sessionId": "local"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-2"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-2"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-3"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "animation": "stomp"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "point"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-3"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "local-4"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "animation": "recoil"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "local-4"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 4,
+        "name": "追问与比较"
+      },
+      {
+        "type": "user.preference",
+        "sessionId": "local",
+        "text": "想清淡一点",
+        "focus": "cantonese_owner"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-5"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-5"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 5,
+        "name": "今晚的选择"
+      },
+      {
+        "type": "user.selected",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.exited",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.exited",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "celebrate"
+      },
+      {
+        "type": "story.completed",
+        "sessionId": "local",
+        "winner": "cantonese_owner"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 0,
+        "name": "说说想吃什么"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 1,
+        "name": "筛选与汇合"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 0,
+        "name": "说说想吃什么"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-8"
+      }
+    ]
+  },
+  "cancelSpeech": {
+    "ok": false,
+    "reason": "cancelled"
+  },
+  "afterStop": {
+    "ready": true,
+    "phase": 4,
+    "phaseName": "追问与比较",
+    "sessionId": "local",
+    "selected": "sichuan_owner",
+    "speaking": null,
+    "audioTime": null,
+    "winner": null,
+    "fps": 6,
+    "scene": "stage",
+    "environment": {
+      "status": "ready",
+      "triangles": 200000,
+      "ground": 0.3702493025670246
+    },
+    "actors": [
+      {
+        "id": "sichuan_owner",
+        "visible": true,
+        "clip": "idle",
+        "emotion": "angry",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          -1.55,
+          0.085,
+          0
+        ],
+        "bones": 22,
+        "triangles": 35232,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 9495,
+        "faceSurfaceDepth": 0.20228194817900658,
+        "prop": "ladle"
+      },
+      {
+        "id": "cantonese_owner",
+        "visible": true,
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          0,
+          0.085,
+          -0.12
+        ],
+        "bones": 22,
+        "triangles": 34277,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 4482,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "teapot"
+      },
+      {
+        "id": "french_chef",
+        "visible": true,
+        "clip": "idle",
+        "emotion": "neutral",
+        "mouth": 0,
+        "mouthShape": null,
+        "position": [
+          1.55,
+          0.085,
+          0
+        ],
+        "bones": 22,
+        "triangles": 36094,
+        "clips": [
+          "arrive",
+          "celebrate",
+          "disagree",
+          "idle",
+          "nod",
+          "point",
+          "present",
+          "recoil",
+          "run",
+          "wave",
+          "listen",
+          "speakA",
+          "speakB",
+          "emerge",
+          "disappointed",
+          "stomp",
+          "scratch",
+          "entrance",
+          "signature"
+        ],
+        "morphs": [
+          "MouthOpen",
+          "Smile",
+          "Frown",
+          "BrowUp",
+          "BrowDown",
+          "BlinkLeft",
+          "BlinkRight"
+        ],
+        "faceLayers": 3,
+        "faceSurfaceVertices": 10392,
+        "faceSurfaceDepth": 0.19999999925494194,
+        "prop": "whisk"
+      }
+    ],
+    "events": [
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.ready",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "environment.ready",
+        "sessionId": "local",
+        "triangles": 200000
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 0,
+        "name": "说说想吃什么"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 1,
+        "name": "筛选与汇合"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.arrived",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "actors.gathered",
+        "sessionId": "local"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 2,
+        "name": "主理人亮相"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.introduced",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      },
+      {
+        "type": "stage.ready",
+        "sessionId": "local"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-2"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-2"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-3"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "animation": "stomp"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "point"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-3"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "local-4"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "animation": "recoil"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "french_chef",
+        "turnId": "local-4"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 4,
+        "name": "追问与比较"
+      },
+      {
+        "type": "user.preference",
+        "sessionId": "local",
+        "text": "想清淡一点",
+        "focus": "cantonese_owner"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-5"
+      },
+      {
+        "type": "speech.ended",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "turnId": "local-5"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 5,
+        "name": "今晚的选择"
+      },
+      {
+        "type": "user.selected",
+        "sessionId": "local",
+        "actorId": "cantonese_owner"
+      },
+      {
+        "type": "actor.exited",
+        "sessionId": "local",
+        "actorId": "sichuan_owner"
+      },
+      {
+        "type": "actor.exited",
+        "sessionId": "local",
+        "actorId": "french_chef"
+      },
+      {
+        "type": "animation.completed",
+        "sessionId": "local",
+        "actorId": "cantonese_owner",
+        "animation": "celebrate"
+      },
+      {
+        "type": "story.completed",
+        "sessionId": "local",
+        "winner": "cantonese_owner"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 0,
+        "name": "说说想吃什么"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 1,
+        "name": "筛选与汇合"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 0,
+        "name": "说说想吃什么"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 3,
+        "name": "推销与拆台"
+      },
+      {
+        "type": "speech.started",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-8"
+      },
+      {
+        "type": "speech.cancelled",
+        "sessionId": "local",
+        "actorId": "sichuan_owner",
+        "turnId": "local-8"
+      },
+      {
+        "type": "phase.changed",
+        "sessionId": "local",
+        "phase": 4,
+        "name": "追问与比较"
+      }
+    ]
+  },
+  "sessionReuse": true,
+  "errors": []
+}

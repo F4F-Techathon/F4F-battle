@@ -1,0 +1,63 @@
+{
+  "handVertices": 2044,
+  "handEdges": 5288,
+  "samplesPerClip": 13,
+  "passed": false,
+  "clips": [
+    {
+      "clip": "arrive",
+      "maxEdgeStretch": 19.603207997704065,
+      "maxEdgeExtensionMeters": 0.07285829532757755
+    },
+    {
+      "clip": "celebrate",
+      "maxEdgeStretch": 184.97164331730377,
+      "maxEdgeExtensionMeters": 0.7236516569359426
+    },
+    {
+      "clip": "disagree",
+      "maxEdgeStretch": 38.015676608495255,
+      "maxEdgeExtensionMeters": 0.18879360936189749
+    },
+    {
+      "clip": "idle",
+      "maxEdgeStretch": 20.03315892785589,
+      "maxEdgeExtensionMeters": 0.0745421711327201
+    },
+    {
+      "clip": "nod",
+      "maxEdgeStretch": 19.609288706536248,
+      "maxEdgeExtensionMeters": 0.07288211004168228
+    },
+    {
+      "clip": "point",
+      "maxEdgeStretch": 131.27134601894218,
+      "maxEdgeExtensionMeters": 0.510437675858128
+    },
+    {
+      "clip": "present",
+      "maxEdgeStretch": 103.40498813815348,
+      "maxEdgeExtensionMeters": 0.40125833640832503
+    },
+    {
+      "clip": "recoil",
+      "maxEdgeStretch": 104.39738379562057,
+      "maxEdgeExtensionMeters": 0.4049493574231897
+    },
+    {
+      "clip": "run",
+      "maxEdgeStretch": 94.101249803092,
+      "maxEdgeExtensionMeters": 0.3704361747679421
+    },
+    {
+      "clip": "signature",
+      "maxEdgeStretch": 74.02508740490326,
+      "maxEdgeExtensionMeters": 0.36452113515716505
+    },
+    {
+      "clip": "wave",
+      "maxEdgeStretch": 147.76299898964766,
+      "maxEdgeExtensionMeters": 0.7400114713626965
+    }
+  ]
+}

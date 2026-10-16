@@ -1,0 +1,4075 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 17,
+    "warningCount": 51,
+    "infoCount": 12,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 1.436,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1022,
+          "top": 492.24,
+          "right": 1202,
+          "bottom": 528.24,
+          "width": 180,
+          "height": 36
+        },
+        "containerSelector": "div.hook-title",
+        "text": "西班牙小酒馆",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1022,
+          "y": 492.24,
+          "width": 180,
+          "height": 36
+        },
+        "firstSeen": 1.149,
+        "lastSeen": 2.01,
+        "occurrences": 6,
+        "heldMs": 860.9999999999998,
+        "times": [
+          1.149,
+          1.436,
+          1.579,
+          1.723,
+          1.866,
+          2.01
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 1.579,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1078.05,
+          "top": 490.74,
+          "right": 1248.41,
+          "bottom": 516.74,
+          "width": 170.36,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.8 · ¥104/人 · 3.2km",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1078.05,
+          "y": 490.74,
+          "width": 170.36,
+          "height": 26
+        },
+        "firstSeen": 1.292,
+        "lastSeen": 2.154,
+        "occurrences": 6,
+        "heldMs": 861.9999999999999,
+        "times": [
+          1.292,
+          1.579,
+          1.723,
+          1.866,
+          2.01,
+          2.154
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 1.579,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(5) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1022,
+          "top": 490.74,
+          "right": 1078.05,
+          "bottom": 516.74,
+          "width": 56.05,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.8",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1022,
+          "y": 490.74,
+          "width": 56.05,
+          "height": 26
+        },
+        "firstSeen": 1.292,
+        "lastSeen": 4.594,
+        "occurrences": 7,
+        "heldMs": 861.9999999999999,
+        "times": [
+          1.292,
+          1.579,
+          1.723,
+          1.866,
+          2.01,
+          2.154,
+          4.594
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 2.01,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 567,
+          "top": 343.68,
+          "right": 747,
+          "bottom": 379.68,
+          "width": 180,
+          "height": 36
+        },
+        "containerSelector": "div.hook-title",
+        "text": "潮汕牛肉火锅",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 567,
+          "y": 343.68,
+          "width": 180,
+          "height": 36
+        },
+        "firstSeen": 2.01,
+        "lastSeen": 3.733,
+        "occurrences": 13,
+        "heldMs": 1723.0000000000002,
+        "times": [
+          2.01,
+          2.154,
+          2.297,
+          2.441,
+          2.584,
+          2.728,
+          2.871,
+          3.015,
+          3.159,
+          3.302,
+          3.446,
+          3.589,
+          3.733
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 2.01,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 621.98,
+          "top": 381.68,
+          "right": 796.23,
+          "bottom": 407.68,
+          "width": 174.25,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.5 · ¥200/人 · 3.9km",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 621.98,
+          "y": 381.68,
+          "width": 174.25,
+          "height": 26
+        },
+        "firstSeen": 2.01,
+        "lastSeen": 3.159,
+        "occurrences": 9,
+        "heldMs": 1149,
+        "times": [
+          2.01,
+          2.154,
+          2.297,
+          2.441,
+          2.584,
+          2.728,
+          2.871,
+          3.015,
+          3.159
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 2.01,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 567,
+          "top": 381.68,
+          "right": 621.98,
+          "bottom": 407.68,
+          "width": 54.98,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.5",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 567,
+          "y": 381.68,
+          "width": 54.98,
+          "height": 26
+        },
+        "firstSeen": 2.01,
+        "lastSeen": 3.159,
+        "occurrences": 9,
+        "heldMs": 1149,
+        "times": [
+          2.01,
+          2.154,
+          2.297,
+          2.441,
+          2.584,
+          2.728,
+          2.871,
+          3.015,
+          3.159
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 2.584,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1022,
+          "top": 514.37,
+          "right": 1172,
+          "bottom": 550.37,
+          "width": 150,
+          "height": 36
+        },
+        "containerSelector": "div.hook-title",
+        "text": "甜品研究所",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1022,
+          "y": 514.37,
+          "width": 150,
+          "height": 36
+        },
+        "firstSeen": 2.154,
+        "lastSeen": 3.733,
+        "occurrences": 11,
+        "heldMs": 1579.0000000000002,
+        "times": [
+          2.154,
+          2.297,
+          2.584,
+          2.728,
+          2.871,
+          3.015,
+          3.159,
+          3.302,
+          3.446,
+          3.589,
+          3.733
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 3.015,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1076.98,
+          "top": 508.08,
+          "right": 1244.2,
+          "bottom": 534.08,
+          "width": 167.22,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.5 · ¥158/人 · 3.5km",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1076.98,
+          "y": 508.08,
+          "width": 167.22,
+          "height": 26
+        },
+        "firstSeen": 2.297,
+        "lastSeen": 3.733,
+        "occurrences": 8,
+        "heldMs": 1436,
+        "times": [
+          2.297,
+          2.441,
+          3.015,
+          3.159,
+          3.302,
+          3.446,
+          3.589,
+          3.733
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 3.015,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(6) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1022,
+          "top": 508.08,
+          "right": 1076.98,
+          "bottom": 534.08,
+          "width": 54.98,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.5",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1022,
+          "y": 508.08,
+          "width": 54.98,
+          "height": 26
+        },
+        "firstSeen": 2.297,
+        "lastSeen": 3.733,
+        "occurrences": 8,
+        "heldMs": 1436,
+        "times": [
+          2.297,
+          2.441,
+          3.015,
+          3.159,
+          3.302,
+          3.446,
+          3.589,
+          3.733
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 43,
+        "selector": "#tkRun > span:nth-of-type(3) > b:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 158.11,
+          "top": 1034,
+          "right": 184.11,
+          "bottom": 1065,
+          "width": 26,
+          "height": 31
+        },
+        "containerSelector": "div.tk-lab",
+        "text": "▲",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 158.11,
+          "y": 1034,
+          "width": 26,
+          "height": 31
+        },
+        "firstSeen": 43,
+        "lastSeen": 62.111,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          43,
+          62.111
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 43,
+        "selector": "div.tk-lab",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 53,
+          "top": 1034,
+          "right": 157,
+          "bottom": 1065,
+          "width": 104,
+          "height": 31
+        },
+        "containerSelector": "#tkRun > span:nth-of-type(3)",
+        "text": "心动指数",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 53,
+          "y": 1034,
+          "width": 104,
+          "height": 31
+        },
+        "firstSeen": 35.75,
+        "lastSeen": 80.688,
+        "occurrences": 308,
+        "heldMs": 44938,
+        "times": [
+          35.75,
+          35.893,
+          36.037,
+          36.18,
+          36.324,
+          36.467,
+          36.611,
+          36.755,
+          36.898,
+          37.042,
+          37.185,
+          37.329,
+          37.472,
+          37.616,
+          37.76,
+          37.903,
+          38.047,
+          38.19,
+          38.334,
+          38.477,
+          38.621,
+          38.765,
+          38.908,
+          39.052,
+          39.195,
+          39.339,
+          39.482,
+          39.626,
+          39.77,
+          39.913,
+          40.057,
+          40.2,
+          40.344,
+          40.487,
+          40.631,
+          40.775,
+          40.918,
+          41.062,
+          41.205,
+          41.349,
+          41.492,
+          41.636,
+          41.78,
+          41.923,
+          42.067,
+          42.21,
+          42.354,
+          42.497,
+          42.641,
+          42.785,
+          42.928,
+          43,
+          43.072,
+          43.215,
+          43.359,
+          43.503,
+          43.646,
+          43.79,
+          43.933,
+          44.077,
+          44.22,
+          44.364,
+          44.508,
+          44.651,
+          44.795,
+          44.938,
+          45.082,
+          45.225,
+          45.369,
+          45.513,
+          45.656,
+          45.8,
+          45.943,
+          46.087,
+          46.23,
+          46.374,
+          46.518,
+          46.661,
+          46.805,
+          46.948,
+          47.092,
+          47.235,
+          47.379,
+          47.523,
+          47.666,
+          47.81,
+          47.953,
+          48.097,
+          48.24,
+          48.384,
+          48.528,
+          48.671,
+          48.815,
+          48.958,
+          49.102,
+          49.245,
+          49.389,
+          49.533,
+          49.676,
+          49.82,
+          49.963,
+          50.107,
+          50.25,
+          50.394,
+          50.538,
+          50.681,
+          50.825,
+          50.968,
+          51.112,
+          51.255,
+          51.399,
+          51.543,
+          51.686,
+          51.83,
+          51.973,
+          52.117,
+          52.26,
+          52.404,
+          52.548,
+          52.556,
+          53.409,
+          53.553,
+          53.696,
+          53.84,
+          53.983,
+          54.127,
+          54.27,
+          54.414,
+          54.558,
+          54.701,
+          54.845,
+          54.988,
+          55.132,
+          55.275,
+          55.419,
+          55.563,
+          55.706,
+          55.85,
+          55.993,
+          56.137,
+          56.28,
+          56.424,
+          56.568,
+          56.711,
+          56.855,
+          56.998,
+          57.142,
+          57.285,
+          57.429,
+          57.573,
+          57.716,
+          57.86,
+          58.003,
+          58.147,
+          58.29,
+          58.434,
+          58.578,
+          58.721,
+          58.865,
+          59.008,
+          59.152,
+          59.295,
+          59.439,
+          59.583,
+          59.726,
+          59.87,
+          60.013,
+          60.157,
+          60.301,
+          60.444,
+          60.588,
+          60.731,
+          60.875,
+          61.018,
+          61.162,
+          61.306,
+          61.449,
+          61.593,
+          61.736,
+          61.88,
+          62.023,
+          62.111,
+          62.167,
+          62.311,
+          62.454,
+          62.598,
+          62.741,
+          62.885,
+          63.028,
+          63.172,
+          63.316,
+          63.459,
+          63.603,
+          63.746,
+          63.89,
+          64.033,
+          64.177,
+          64.321,
+          64.464,
+          64.608,
+          64.751,
+          64.895,
+          65.038,
+          65.182,
+          65.326,
+          65.469,
+          65.613,
+          65.756,
+          65.9,
+          66.043,
+          66.187,
+          66.331,
+          66.474,
+          66.618,
+          66.761,
+          66.905,
+          67.048,
+          67.192,
+          67.336,
+          67.479,
+          67.623,
+          67.766,
+          67.91,
+          68.053,
+          68.197,
+          68.341,
+          68.484,
+          68.628,
+          68.771,
+          68.915,
+          69.058,
+          69.202,
+          69.346,
+          69.489,
+          69.633,
+          69.776,
+          69.92,
+          70.063,
+          70.207,
+          70.351,
+          71.212,
+          71.356,
+          71.499,
+          71.643,
+          71.667,
+          71.786,
+          71.93,
+          72.073,
+          72.217,
+          72.361,
+          72.504,
+          72.648,
+          72.791,
+          72.935,
+          73.078,
+          73.222,
+          73.366,
+          73.509,
+          73.653,
+          73.796,
+          73.94,
+          74.083,
+          74.227,
+          74.371,
+          74.514,
+          74.658,
+          74.801,
+          74.945,
+          75.088,
+          75.232,
+          75.376,
+          75.519,
+          75.663,
+          75.806,
+          75.95,
+          76.093,
+          76.237,
+          76.381,
+          76.524,
+          76.668,
+          76.811,
+          76.955,
+          77.098,
+          77.242,
+          77.386,
+          77.529,
+          77.673,
+          77.816,
+          77.96,
+          78.104,
+          78.247,
+          78.391,
+          78.534,
+          78.678,
+          78.821,
+          78.965,
+          79.109,
+          79.252,
+          79.396,
+          79.539,
+          79.683,
+          79.826,
+          79.97,
+          80.114,
+          80.257,
+          80.401,
+          80.544,
+          80.688
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 46.374,
+        "selector": "#sc-stage > div:nth-of-type(16) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 368,
+          "top": 179,
+          "right": 422.72,
+          "bottom": 210,
+          "width": 54.72,
+          "height": 31
+        },
+        "containerSelector": "#sc-stage > div:nth-of-type(25) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(6)",
+        "text": "+1 瓜",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 368,
+          "y": 179,
+          "width": 54.72,
+          "height": 31
+        },
+        "firstSeen": 46.374,
+        "lastSeen": 47.379,
+        "occurrences": 8,
+        "heldMs": 1004.9999999999955,
+        "times": [
+          46.374,
+          46.518,
+          46.661,
+          46.805,
+          46.948,
+          47.092,
+          47.235,
+          47.379
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 60.588,
+        "selector": "#sc-stage > div:nth-of-type(18) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 414.36,
+          "top": 167.15,
+          "right": 459.86,
+          "bottom": 192.92,
+          "width": 45.5,
+          "height": 25.77
+        },
+        "containerSelector": "#sc-stage > div:nth-of-type(25) > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(7)",
+        "text": "+1 瓜",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 414.36,
+          "y": 167.15,
+          "width": 45.5,
+          "height": 25.77
+        },
+        "firstSeen": 60.588,
+        "lastSeen": 61.736,
+        "occurrences": 9,
+        "heldMs": 1147.9999999999961,
+        "times": [
+          60.588,
+          60.731,
+          60.875,
+          61.018,
+          61.162,
+          61.306,
+          61.449,
+          61.593,
+          61.736
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 81.222,
+        "selector": "div.logo > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 557.3,
+          "top": 110.33,
+          "right": 1394.81,
+          "bottom": 366.17,
+          "width": 837.51,
+          "height": 255.84
+        },
+        "containerSelector": "div.logo > div:nth-of-type(2)",
+        "text": "今晚吃谁？",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 557.3,
+          "y": 110.33,
+          "width": 837.51,
+          "height": 255.84
+        },
+        "firstSeen": 80.688,
+        "lastSeen": 86,
+        "occurrences": 39,
+        "heldMs": 5311.999999999997,
+        "times": [
+          80.688,
+          80.831,
+          80.975,
+          81.119,
+          81.222,
+          81.262,
+          81.406,
+          81.549,
+          81.693,
+          81.836,
+          81.98,
+          82.124,
+          82.267,
+          82.411,
+          82.554,
+          82.698,
+          82.841,
+          82.985,
+          83.129,
+          83.272,
+          83.416,
+          83.559,
+          83.703,
+          83.846,
+          83.99,
+          84.134,
+          84.277,
+          84.421,
+          84.564,
+          84.708,
+          84.851,
+          84.995,
+          85.139,
+          85.282,
+          85.426,
+          85.569,
+          85.713,
+          85.856,
+          86
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 81.222,
+        "selector": "div.logo > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 553.29,
+          "top": 104.31,
+          "right": 1390.79,
+          "bottom": 360.15,
+          "width": 837.5,
+          "height": 255.84
+        },
+        "containerSelector": "div.logo > div:nth-of-type(3)",
+        "text": "今晚吃谁？",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 553.29,
+          "y": 104.31,
+          "width": 837.5,
+          "height": 255.84
+        },
+        "firstSeen": 80.688,
+        "lastSeen": 86,
+        "occurrences": 39,
+        "heldMs": 5311.999999999997,
+        "times": [
+          80.688,
+          80.831,
+          80.975,
+          81.119,
+          81.222,
+          81.262,
+          81.406,
+          81.549,
+          81.693,
+          81.836,
+          81.98,
+          82.124,
+          82.267,
+          82.411,
+          82.554,
+          82.698,
+          82.841,
+          82.985,
+          83.129,
+          83.272,
+          83.416,
+          83.559,
+          83.703,
+          83.846,
+          83.99,
+          84.134,
+          84.277,
+          84.421,
+          84.564,
+          84.708,
+          84.851,
+          84.995,
+          85.139,
+          85.282,
+          85.426,
+          85.569,
+          85.713,
+          85.856,
+          86
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 81.222,
+        "selector": "div.logo > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 549.27,
+          "top": 98.29,
+          "right": 1386.78,
+          "bottom": 354.13,
+          "width": 837.51,
+          "height": 255.84
+        },
+        "containerSelector": "div.logo > div:nth-of-type(4)",
+        "text": "今晚吃谁？",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 549.27,
+          "y": 98.29,
+          "width": 837.51,
+          "height": 255.84
+        },
+        "firstSeen": 80.688,
+        "lastSeen": 86,
+        "occurrences": 39,
+        "heldMs": 5311.999999999997,
+        "times": [
+          80.688,
+          80.831,
+          80.975,
+          81.119,
+          81.222,
+          81.262,
+          81.406,
+          81.549,
+          81.693,
+          81.836,
+          81.98,
+          82.124,
+          82.267,
+          82.411,
+          82.554,
+          82.698,
+          82.841,
+          82.985,
+          83.129,
+          83.272,
+          83.416,
+          83.559,
+          83.703,
+          83.846,
+          83.99,
+          84.134,
+          84.277,
+          84.421,
+          84.564,
+          84.708,
+          84.851,
+          84.995,
+          85.139,
+          85.282,
+          85.426,
+          85.569,
+          85.713,
+          85.856,
+          86
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 81.222,
+        "selector": "div.logo > div:nth-of-type(4)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 545.26,
+          "top": 92.27,
+          "right": 1382.77,
+          "bottom": 348.11,
+          "width": 837.51,
+          "height": 255.84
+        },
+        "containerSelector": "div.logo > div:nth-of-type(5)",
+        "text": "今晚吃谁？",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 545.26,
+          "y": 92.27,
+          "width": 837.51,
+          "height": 255.84
+        },
+        "firstSeen": 80.688,
+        "lastSeen": 86,
+        "occurrences": 39,
+        "heldMs": 5311.999999999997,
+        "times": [
+          80.688,
+          80.831,
+          80.975,
+          81.119,
+          81.222,
+          81.262,
+          81.406,
+          81.549,
+          81.693,
+          81.836,
+          81.98,
+          82.124,
+          82.267,
+          82.411,
+          82.554,
+          82.698,
+          82.841,
+          82.985,
+          83.129,
+          83.272,
+          83.416,
+          83.559,
+          83.703,
+          83.846,
+          83.99,
+          84.134,
+          84.277,
+          84.421,
+          84.564,
+          84.708,
+          84.851,
+          84.995,
+          85.139,
+          85.282,
+          85.426,
+          85.569,
+          85.713,
+          85.856,
+          86
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 0.431,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 567,
+          "top": 339.35,
+          "right": 717,
+          "bottom": 375.35,
+          "width": 150,
+          "height": 36
+        },
+        "containerSelector": "div.hook-title",
+        "text": "泰式冬阴功",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 567,
+          "y": 339.35,
+          "width": 150,
+          "height": 36
+        },
+        "firstSeen": 0.431,
+        "lastSeen": 0.718,
+        "occurrences": 3,
+        "heldMs": 287,
+        "times": [
+          0.431,
+          0.574,
+          0.718
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 0.431,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 623.27,
+          "top": 377.35,
+          "right": 785.08,
+          "bottom": 403.35,
+          "width": 161.81,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.4 · ¥83/人 · 3.3km",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 623.27,
+          "y": 377.35,
+          "width": 161.81,
+          "height": 26
+        },
+        "firstSeen": 0.431,
+        "lastSeen": 0.574,
+        "occurrences": 2,
+        "heldMs": 142.99999999999997,
+        "times": [
+          0.431,
+          0.574
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 0.431,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 567,
+          "top": 377.35,
+          "right": 623.27,
+          "bottom": 403.35,
+          "width": 56.27,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.4",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 567,
+          "y": 377.35,
+          "width": 56.27,
+          "height": 26
+        },
+        "firstSeen": 0.431,
+        "lastSeen": 0.574,
+        "occurrences": 2,
+        "heldMs": 142.99999999999997,
+        "times": [
+          0.431,
+          0.574
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 0.431,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1076.98,
+          "top": 441.16,
+          "right": 1250.94,
+          "bottom": 467.16,
+          "width": 173.96,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.5 · ¥240/人 · 2.7km",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1076.98,
+          "y": 441.16,
+          "width": 173.96,
+          "height": 26
+        },
+        "firstSeen": 0.431,
+        "lastSeen": 0.574,
+        "occurrences": 2,
+        "heldMs": 142.99999999999997,
+        "times": [
+          0.431,
+          0.574
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 0.431,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1022,
+          "top": 441.16,
+          "right": 1076.98,
+          "bottom": 467.16,
+          "width": 54.98,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.5",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1022,
+          "y": 441.16,
+          "width": 54.98,
+          "height": 26
+        },
+        "firstSeen": 0.431,
+        "lastSeen": 0.574,
+        "occurrences": 2,
+        "heldMs": 142.99999999999997,
+        "times": [
+          0.431,
+          0.574
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 0.861,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(4) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1022,
+          "top": 453.03,
+          "right": 1112,
+          "bottom": 489.03,
+          "width": 90,
+          "height": 36
+        },
+        "containerSelector": "div.hook-title",
+        "text": "寿喜锅",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1022,
+          "y": 453.03,
+          "width": 90,
+          "height": 36
+        },
+        "firstSeen": 0.861,
+        "lastSeen": 1.005,
+        "occurrences": 2,
+        "heldMs": 143.99999999999991,
+        "times": [
+          0.861,
+          1.005
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 0.861,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(4) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1078.05,
+          "top": 491.03,
+          "right": 1247.92,
+          "bottom": 517.03,
+          "width": 169.87,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.8 · ¥128/人 · 2.7km",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1078.05,
+          "y": 491.03,
+          "width": 169.87,
+          "height": 26
+        },
+        "firstSeen": 0.861,
+        "lastSeen": 1.149,
+        "occurrences": 3,
+        "heldMs": 288.00000000000006,
+        "times": [
+          0.861,
+          1.005,
+          1.149
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 0.861,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(4) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1022,
+          "top": 491.03,
+          "right": 1078.05,
+          "bottom": 517.03,
+          "width": 56.05,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.8",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1022,
+          "y": 491.03,
+          "width": 56.05,
+          "height": 26
+        },
+        "firstSeen": 0.861,
+        "lastSeen": 1.149,
+        "occurrences": 3,
+        "heldMs": 288.00000000000006,
+        "times": [
+          0.861,
+          1.005,
+          1.149
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 1.005,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 623.56,
+          "top": 371.81,
+          "right": 783.84,
+          "bottom": 397.81,
+          "width": 160.28,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.3 · ¥53/人 · 4.2km",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 623.56,
+          "y": 371.81,
+          "width": 160.28,
+          "height": 26
+        },
+        "firstSeen": 1.005,
+        "lastSeen": 1.723,
+        "occurrences": 5,
+        "heldMs": 718.0000000000002,
+        "times": [
+          1.005,
+          1.149,
+          1.292,
+          1.436,
+          1.723
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 1.005,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 567,
+          "top": 371.81,
+          "right": 623.56,
+          "bottom": 397.81,
+          "width": 56.56,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.3",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 567,
+          "y": 371.81,
+          "width": 56.56,
+          "height": 26
+        },
+        "firstSeen": 1.005,
+        "lastSeen": 1.436,
+        "occurrences": 4,
+        "heldMs": 431.00000000000006,
+        "times": [
+          1.005,
+          1.149,
+          1.292,
+          1.436
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 1.149,
+        "selector": "div.hook-wall > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 567,
+          "top": 380.5,
+          "right": 747,
+          "bottom": 416.5,
+          "width": 180,
+          "height": 36
+        },
+        "containerSelector": "div.hook-title",
+        "text": "那不勒斯披萨",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 567,
+          "y": 380.5,
+          "width": 180,
+          "height": 36
+        },
+        "firstSeen": 1.149,
+        "lastSeen": 1.866,
+        "occurrences": 5,
+        "heldMs": 717.0000000000001,
+        "times": [
+          1.149,
+          1.292,
+          1.436,
+          1.579,
+          1.866
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "#mapFrame",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "containerSelector": "#sc-agent",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1460
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1980,
+          "y": 40,
+          "width": 1400,
+          "height": 1000
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 14.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > ellipse:nth-of-type(2)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2719,
+          "top": 960,
+          "right": 3005,
+          "bottom": 1084,
+          "width": 286,
+          "height": 124
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 44
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2719,
+          "y": 960,
+          "width": 286,
+          "height": 124
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > ellipse:nth-of-type(3)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 3284,
+          "top": 640,
+          "right": 3426,
+          "bottom": 740,
+          "width": 142,
+          "height": 100
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "right": 46
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3284,
+          "y": 640,
+          "width": 142,
+          "height": 100
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > ellipse:nth-of-type(7)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 3217,
+          "top": 599,
+          "right": 3389,
+          "bottom": 749,
+          "width": 172,
+          "height": 150
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "right": 9
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3217,
+          "y": 599,
+          "width": 172,
+          "height": 150
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > ellipse:nth-of-type(8)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2016,
+          "top": 964,
+          "right": 2244,
+          "bottom": 1092,
+          "width": 228,
+          "height": 128
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 52
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2016,
+          "y": 964,
+          "width": 228,
+          "height": 128
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > ellipse:nth-of-type(13)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 3302,
+          "top": 708,
+          "right": 3426,
+          "bottom": 814,
+          "width": 124,
+          "height": 106
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "right": 46
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3302,
+          "y": 708,
+          "width": 124,
+          "height": 106
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1950,
+          "top": 10,
+          "right": 2630,
+          "bottom": 173.33,
+          "width": 680,
+          "height": 163.33
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 30,
+          "top": 30
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1950,
+          "y": 10,
+          "width": 680,
+          "height": 163.33
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(2)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1950,
+          "top": 10,
+          "right": 2630,
+          "bottom": 173.33,
+          "width": 680,
+          "height": 163.33
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 30,
+          "top": 30
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1950,
+          "y": 10,
+          "width": 680,
+          "height": 163.33
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(5)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1960,
+          "top": 489.23,
+          "right": 3400,
+          "bottom": 540,
+          "width": 1440,
+          "height": 50.77
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 20,
+          "right": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1960,
+          "y": 489.23,
+          "width": 1440,
+          "height": 50.77
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(6)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2620,
+          "top": 20,
+          "right": 2688.12,
+          "bottom": 1060,
+          "width": 68.12,
+          "height": 1040
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "top": 20,
+          "bottom": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2620,
+          "y": 20,
+          "width": 68.12,
+          "height": 1040
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(7)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2100,
+          "top": 512,
+          "right": 2560,
+          "bottom": 1060,
+          "width": 460,
+          "height": 548
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2100,
+          "y": 512,
+          "width": 460,
+          "height": 548
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(8)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2800,
+          "top": 240,
+          "right": 3400,
+          "bottom": 510,
+          "width": 600,
+          "height": 270
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "right": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2800,
+          "y": 240,
+          "width": 600,
+          "height": 270
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(9)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2680,
+          "top": 630,
+          "right": 3400,
+          "bottom": 960,
+          "width": 720,
+          "height": 330
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "right": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2680,
+          "y": 630,
+          "width": 720,
+          "height": 330
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(10)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1960,
+          "top": 250,
+          "right": 2560,
+          "bottom": 512,
+          "width": 600,
+          "height": 262
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1960,
+          "y": 250,
+          "width": 600,
+          "height": 262
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(11)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1960,
+          "top": 489.23,
+          "right": 3400,
+          "bottom": 540,
+          "width": 1440,
+          "height": 50.77
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 20,
+          "right": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1960,
+          "y": 489.23,
+          "width": 1440,
+          "height": 50.77
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(12)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2620,
+          "top": 20,
+          "right": 2688.12,
+          "bottom": 1060,
+          "width": 68.12,
+          "height": 1040
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "top": 20,
+          "bottom": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2620,
+          "y": 20,
+          "width": 68.12,
+          "height": 1040
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(13)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2100,
+          "top": 512,
+          "right": 2560,
+          "bottom": 1060,
+          "width": 460,
+          "height": 548
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2100,
+          "y": 512,
+          "width": 460,
+          "height": 548
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(14)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2800,
+          "top": 240,
+          "right": 3400,
+          "bottom": 510,
+          "width": 600,
+          "height": 270
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "right": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2800,
+          "y": 240,
+          "width": 600,
+          "height": 270
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(15)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2680,
+          "top": 630,
+          "right": 3400,
+          "bottom": 960,
+          "width": 720,
+          "height": 330
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "right": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2680,
+          "y": 630,
+          "width": 720,
+          "height": 330
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > path:nth-of-type(16)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1960,
+          "top": 250,
+          "right": 2560,
+          "bottom": 512,
+          "width": 600,
+          "height": 262
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 20
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1960,
+          "y": 250,
+          "width": 600,
+          "height": 262
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(38)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2970,
+          "top": 999,
+          "right": 3029,
+          "bottom": 1059,
+          "width": 59,
+          "height": 60
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 19
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2970,
+          "y": 999,
+          "width": 59,
+          "height": 60
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(52)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1975,
+          "top": 856,
+          "right": 2027,
+          "bottom": 908,
+          "width": 52,
+          "height": 52
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 5
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1975,
+          "y": 856,
+          "width": 52,
+          "height": 52
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(56)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2255,
+          "top": 996,
+          "right": 2303,
+          "bottom": 1043,
+          "width": 48,
+          "height": 47
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 3
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2255,
+          "y": 996,
+          "width": 48,
+          "height": 47
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(62)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1964,
+          "top": 402,
+          "right": 2006,
+          "bottom": 443,
+          "width": 42,
+          "height": 41
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 16
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1964,
+          "y": 402,
+          "width": 42,
+          "height": 41
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(63)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2440,
+          "top": 999,
+          "right": 2501,
+          "bottom": 1061,
+          "width": 61,
+          "height": 62
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 21
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2440,
+          "y": 999,
+          "width": 61,
+          "height": 62
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(75)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2281,
+          "top": 17,
+          "right": 2346,
+          "bottom": 83,
+          "width": 65,
+          "height": 66
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "top": 23
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2281,
+          "y": 17,
+          "width": 65,
+          "height": 66
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(87)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 3067,
+          "top": 1006,
+          "right": 3115,
+          "bottom": 1055,
+          "width": 48,
+          "height": 49
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 15
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3067,
+          "y": 1006,
+          "width": 48,
+          "height": 49
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(91)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 3014,
+          "top": 33,
+          "right": 3056,
+          "bottom": 75,
+          "width": 42,
+          "height": 42
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "top": 7
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3014,
+          "y": 33,
+          "width": 42,
+          "height": 42
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(97)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 3346,
+          "top": 422,
+          "right": 3403,
+          "bottom": 480,
+          "width": 57,
+          "height": 58
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "right": 23
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3346,
+          "y": 422,
+          "width": 57,
+          "height": 58
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(98)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2499,
+          "top": 997,
+          "right": 2565,
+          "bottom": 1065,
+          "width": 66,
+          "height": 68
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 25
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2499,
+          "y": 997,
+          "width": 66,
+          "height": 68
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(101)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1968,
+          "top": 637,
+          "right": 2029,
+          "bottom": 700,
+          "width": 61,
+          "height": 63
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 12
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1968,
+          "y": 637,
+          "width": 61,
+          "height": 63
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(103)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 1964,
+          "top": 346,
+          "right": 2031,
+          "bottom": 415,
+          "width": 67,
+          "height": 69
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "left": 16
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1964,
+          "y": 346,
+          "width": 67,
+          "height": 69
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(104)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 2322,
+          "top": 1003,
+          "right": 2370,
+          "bottom": 1051,
+          "width": 48,
+          "height": 48
+        },
+        "containerSelector": "div.map-cam > svg:nth-of-type(1)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 1980,
+          "top": 40,
+          "right": 3380,
+          "bottom": 1040,
+          "width": 1400,
+          "height": 1000
+        },
+        "overflow": {
+          "bottom": 11
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2322,
+          "y": 1003,
+          "width": 48,
+          "height": 48
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 33.444,
+        "selector": "#sc-stage > div:nth-of-type(33) > div:nth-of-type(1) > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -95,
+          "top": 0,
+          "right": -83.96,
+          "bottom": 1080,
+          "width": 11.04,
+          "height": 1080
+        },
+        "containerSelector": "#sc-stage > div:nth-of-type(33) > div:nth-of-type(1)",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -95,
+          "y": 0,
+          "width": 11.04,
+          "height": 1080
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 71.667,
+        "occurrences": 5,
+        "heldMs": 0,
+        "times": [
+          33.444,
+          43,
+          52.556,
+          62.111,
+          71.667
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 33.444,
+        "selector": "#sc-stage > div:nth-of-type(33) > div:nth-of-type(1) > div:nth-of-type(2)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -84.4,
+          "top": 0,
+          "right": -67.25,
+          "bottom": 1079.24,
+          "width": 17.15,
+          "height": 1079.24
+        },
+        "containerSelector": "#sc-stage > div:nth-of-type(33) > div:nth-of-type(1)",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -84.4,
+          "y": 0,
+          "width": 17.15,
+          "height": 1079.24
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 71.667,
+        "occurrences": 5,
+        "heldMs": 0,
+        "times": [
+          33.444,
+          43,
+          52.556,
+          62.111,
+          71.667
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 33.444,
+        "selector": "#sc-stage > div:nth-of-type(33) > div:nth-of-type(1) > div:nth-of-type(3)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": -67.8,
+          "top": 0,
+          "right": -56.85,
+          "bottom": 1076.98,
+          "width": 10.95,
+          "height": 1076.98
+        },
+        "containerSelector": "#sc-stage > div:nth-of-type(33) > div:nth-of-type(1)",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -67.8,
+          "y": 0,
+          "width": 10.95,
+          "height": 1076.98
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 71.667,
+        "occurrences": 5,
+        "heldMs": 0,
+        "times": [
+          33.444,
+          43,
+          52.556,
+          62.111,
+          71.667
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 33.444,
+        "selector": "div.cvr.cvr-right > div:nth-of-type(1)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 2002.04,
+          "top": 0,
+          "right": 2015,
+          "bottom": 1080,
+          "width": 12.96,
+          "height": 1080
+        },
+        "containerSelector": "div.cvr.cvr-right",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2002.04,
+          "y": 0,
+          "width": 12.96,
+          "height": 1080
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 71.667,
+        "occurrences": 5,
+        "heldMs": 0,
+        "times": [
+          33.444,
+          43,
+          52.556,
+          62.111,
+          71.667
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 33.444,
+        "selector": "div.cvr.cvr-right > div:nth-of-type(2)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 1993.12,
+          "top": 0,
+          "right": 2002.5,
+          "bottom": 1079.24,
+          "width": 9.38,
+          "height": 1079.24
+        },
+        "containerSelector": "div.cvr.cvr-right",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1993.12,
+          "y": 0,
+          "width": 9.38,
+          "height": 1079.24
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 71.667,
+        "occurrences": 5,
+        "heldMs": 0,
+        "times": [
+          33.444,
+          43,
+          52.556,
+          62.111,
+          71.667
+        ]
+      },
+      {
+        "code": "escaped_container",
+        "severity": "warning",
+        "time": 33.444,
+        "selector": "div.cvr.cvr-right > div:nth-of-type(3)",
+        "message": "Positioned element renders far outside its offset parent — its coordinates were likely computed in a different frame (canvas/viewport pixels).",
+        "rect": {
+          "left": 1974.16,
+          "top": 0,
+          "right": 1993.7,
+          "bottom": 1076.98,
+          "width": 19.54,
+          "height": 1076.98
+        },
+        "containerSelector": "div.cvr.cvr-right",
+        "text": "",
+        "fixHint": "Compute left/top in the offset parent's frame (subtract its rect), or mark intentional placement with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1974.16,
+          "y": 0,
+          "width": 19.54,
+          "height": 1076.98
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 71.667,
+        "occurrences": 5,
+        "heldMs": 0,
+        "times": [
+          33.444,
+          43,
+          52.556,
+          62.111,
+          71.667
+        ]
+      },
+      {
+        "code": "rotation_pivot_drift",
+        "severity": "warning",
+        "time": 71.667,
+        "selector": "#sc-stage > div:nth-of-type(24) > svg:nth-of-type(1) > g:nth-of-type(1) > g:nth-of-type(3) > g:nth-of-type(1) > g:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1361.67,
+          "y": 658.49,
+          "width": 83.44,
+          "height": 169.28
+        },
+        "rect": {
+          "left": 1361.67,
+          "top": 658.49,
+          "right": 1445.1100000000001,
+          "bottom": 827.77,
+          "width": 83.44,
+          "height": 169.28
+        },
+        "message": "Rotating element's bounding-box center drifts 92px across rotation — it is not spinning about its own center (check transformOrigin/svgOrigin).",
+        "fixHint": "The bounding-box center should stay fixed while the element spins; check its transformOrigin/svgOrigin so rotation pivots about the element's own center rather than a point in a coordinate space it was resized out of.",
+        "firstSeen": 71.667,
+        "lastSeen": 71.667,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          71.667
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 0.431,
+        "selector": "div.hook-wall > div:nth-of-type(3) > div:nth-of-type(3) > div:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1022,
+          "top": 403.16,
+          "right": 1172,
+          "bottom": 439.16,
+          "width": 150,
+          "height": 36
+        },
+        "containerSelector": "div.hook-title",
+        "text": "日式咖喱屋",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1022,
+          "y": 403.16,
+          "width": 150,
+          "height": 36
+        },
+        "firstSeen": 0.431,
+        "lastSeen": 0.431,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          0.431
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 0.431,
+        "selector": "div.hook-wall > div:nth-of-type(4) > div:nth-of-type(3) > div:nth-of-type(3) > b:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 1477,
+          "top": 420.34,
+          "right": 1532.61,
+          "bottom": 446.34,
+          "width": 55.61,
+          "height": 26
+        },
+        "containerSelector": "div.hook-title",
+        "text": "★ 4.9",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1477,
+          "y": 420.34,
+          "width": 55.61,
+          "height": 26
+        },
+        "firstSeen": 0.431,
+        "lastSeen": 0.431,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          0.431
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(33) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2272.34,
+          "top": 638,
+          "right": 2287.66,
+          "bottom": 658,
+          "width": 15.32,
+          "height": 20
+        },
+        "containerSelector": "#root",
+        "text": "川",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 367.66
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2272.34,
+          "y": 638,
+          "width": 15.32,
+          "height": 20
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 14.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(35) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2992.34,
+          "top": 308,
+          "right": 3007.66,
+          "bottom": 328,
+          "width": 15.32,
+          "height": 20
+        },
+        "containerSelector": "#root",
+        "text": "粤",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1087.66
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2992.34,
+          "y": 308,
+          "width": 15.32,
+          "height": 20
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 14.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(37) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 3091.63,
+          "top": 699,
+          "right": 3108.38,
+          "bottom": 720,
+          "width": 16.75,
+          "height": 21
+        },
+        "containerSelector": "#root",
+        "text": "Fr",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 1188.38
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 3091.63,
+          "y": 699,
+          "width": 16.75,
+          "height": 21
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 14.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 4.778,
+        "selector": "div.map-cam > svg:nth-of-type(1) > g:nth-of-type(107) > g:nth-of-type(1) > text:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 2646.34,
+          "top": 578,
+          "right": 2713.66,
+          "bottom": 600,
+          "width": 67.32,
+          "height": 22
+        },
+        "containerSelector": "#root",
+        "text": "餐馆路演",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "right": 793.66
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 2646.34,
+          "y": 578,
+          "width": 67.32,
+          "height": 22
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 14.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 4.778,
+        "selector": "div.req-t",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 865.55,
+          "top": 693.43,
+          "right": 937.12,
+          "bottom": 722.26,
+          "width": 71.58,
+          "height": 28.83
+        },
+        "containerSelector": "div.orb",
+        "text": "需求卡",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 865.55,
+          "y": 693.43,
+          "width": 71.58,
+          "height": 28.83
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 4.778,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.778
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 4.778,
+        "selector": "#threadIn",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 792.98,
+          "top": 246.09,
+          "right": 1797.02,
+          "bottom": 842.55,
+          "width": 1004.04,
+          "height": 596.46
+        },
+        "containerSelector": "#thread",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 792.98,
+          "top": 246.09,
+          "right": 1797.02,
+          "bottom": 663.61,
+          "width": 1004.04,
+          "height": 417.52
+        },
+        "overflow": {
+          "bottom": 178.94
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 792.98,
+          "y": 246.09,
+          "width": 1004.04,
+          "height": 596.46
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 14.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "info",
+        "time": 4.778,
+        "selector": "div.orb > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 747.69,
+          "top": 338.42,
+          "right": 1150.46,
+          "bottom": 741.19,
+          "width": 402.77,
+          "height": 402.77
+        },
+        "containerSelector": "div.orb",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 751.45,
+          "top": 342.18,
+          "right": 1146.7,
+          "bottom": 737.43,
+          "width": 395.26,
+          "height": 395.26
+        },
+        "overflow": {
+          "left": 3.76,
+          "right": 3.76,
+          "top": 3.76,
+          "bottom": 3.76
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 747.69,
+          "y": 338.42,
+          "width": 402.77,
+          "height": 402.77
+        },
+        "firstSeen": 4.778,
+        "lastSeen": 23.889,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          4.778,
+          14.333,
+          23.889
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 33.444,
+        "selector": "div.tk-lab",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 53,
+          "top": 1114,
+          "right": 157,
+          "bottom": 1145,
+          "width": 104,
+          "height": 31
+        },
+        "containerSelector": "#root",
+        "text": "心动指数",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 65
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 53,
+          "y": 1114,
+          "width": 104,
+          "height": 31
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 33.444,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          33.444
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 33.444,
+        "selector": "#tkRun > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 333,
+          "top": 1114,
+          "right": 498.25,
+          "bottom": 1145,
+          "width": 165.25,
+          "height": 31
+        },
+        "containerSelector": "#root",
+        "text": "巴适川菜",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 65
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 333,
+          "y": 1114,
+          "width": 165.25,
+          "height": 31
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 62.111,
+        "occurrences": 4,
+        "heldMs": 0,
+        "times": [
+          33.444,
+          43,
+          52.556,
+          62.111
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 33.444,
+        "selector": "#tkRun > span:nth-of-type(1) > b:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 443.28,
+          "top": 1114,
+          "right": 491.97,
+          "bottom": 1145,
+          "width": 48.69,
+          "height": 31
+        },
+        "containerSelector": "#root",
+        "text": "62.0",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1920,
+          "bottom": 1080,
+          "width": 1920,
+          "height": 1080
+        },
+        "overflow": {
+          "bottom": 65
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 443.28,
+          "y": 1114,
+          "width": 48.69,
+          "height": 31
+        },
+        "firstSeen": 33.444,
+        "lastSeen": 62.111,
+        "occurrences": 4,
+        "heldMs": 0,
+        "times": [
+          33.444,
+          43,
+          52.556,
+          62.111
+        ]
+      }
+    ],
+    "duration": 86,
+    "samples": [
+      4.778,
+      14.333,
+      23.889,
+      33.444,
+      43,
+      52.556,
+      62.111,
+      71.667,
+      81.222
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 159,
+    "truncated": true
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": false,
+    "errorCount": 2,
+    "warningCount": 6,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.25:1; WCAG AA requires 3:1.",
+        "text": "需求卡",
+        "fg": "rgb(91,74,96)",
+        "bg": "rgb(161,120,177)",
+        "ratio": 2.25,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(70,57,74)",
+        "large": true,
+        "selector": "div > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(3) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 865.5487670898438,
+          "y": 696.4127197265625,
+          "width": 71.57525634765625,
+          "height": 23.8583984375
+        },
+        "time": 4.778,
+        "times": [
+          4.778
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.33:1; WCAG AA requires 3:1.",
+        "text": "说说你的想法…",
+        "fg": "rgb(167,152,138)",
+        "bg": "rgb(242,233,223)",
+        "ratio": 2.33,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(145,132,120)",
+        "large": true,
+        "selector": "#inPh",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 876.48388671875,
+          "y": 868.3919677734375,
+          "width": 225.629638671875,
+          "height": 43.92681884765625
+        },
+        "time": 4.778,
+        "times": [
+          4.778
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.13:1; WCAG AA requires 4.5:1.",
+        "text": "川",
+        "fg": "rgb(201,72,62)",
+        "bg": "rgb(246,203,169)",
+        "ratio": 3.13,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(159,57,49)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > svg > g:nth-of-type(33) > text",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 772.34375,
+          "y": 638,
+          "width": 15.3125,
+          "height": 20.08001708984375
+        },
+        "time": 23.889,
+        "times": [
+          23.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.62:1; WCAG AA requires 4.5:1.",
+        "text": "粤",
+        "fg": "rgb(47,110,98)",
+        "bg": "rgb(241,192,155)",
+        "ratio": 3.62,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(40,94,84)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > svg > g:nth-of-type(35) > text",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1492.34375,
+          "y": 308,
+          "width": 15.3125,
+          "height": 20.08001708984375
+        },
+        "time": 23.889,
+        "times": [
+          23.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.87:1; WCAG AA requires 4.5:1.",
+        "text": "Fr",
+        "fg": "rgb(122,90,158)",
+        "bg": "rgb(247,208,179)",
+        "ratio": 3.87,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(110,81,143)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div:nth-of-type(2) > div > svg > g:nth-of-type(37) > text",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1591.625,
+          "y": 699,
+          "width": 16.75,
+          "height": 21
+        },
+        "time": 23.889,
+        "times": [
+          23.889
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 2.1:1; WCAG AA requires 3:1.",
+        "text": "Chez Pierre 58.8 ▲",
+        "fg": "rgb(243,231,211)",
+        "bg": "rgb(201,154,59)",
+        "ratio": 2.1,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(87,82,75)",
+        "large": true,
+        "selector": "div > div:nth-of-type(3) > div:nth-of-type(20) > div:nth-of-type(2) > span:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -36.953125,
+          "y": 1019,
+          "width": 221.0625,
+          "height": 61
+        },
+        "time": 43,
+        "times": [
+          43,
+          62.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "error",
+        "message": "Contrast is 1.09:1; WCAG AA requires 3:1.",
+        "text": "▲",
+        "fg": "rgb(255,107,94)",
+        "bg": "rgb(201,154,59)",
+        "ratio": 1.09,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(137,57,51)",
+        "large": true,
+        "selector": "div > div:nth-of-type(3) > div:nth-of-type(20) > div:nth-of-type(2) > span:nth-of-type(3) > b:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 158.109375,
+          "y": 1034,
+          "width": 26,
+          "height": 31
+        },
+        "time": 43,
+        "times": [
+          43,
+          62.111
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 1.64:1; WCAG AA requires 3:1.",
+        "text": "今晚吃谁？",
+        "fg": "rgb(227,176,75)",
+        "bg": "rgb(245,230,227)",
+        "ratio": 1.64,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(166,128,55)",
+        "large": true,
+        "selector": "div > div:nth-of-type(4) > div:nth-of-type(4) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 8.871630668640137,
+          "y": 127.38639831542969,
+          "width": 1926.3359375,
+          "height": 210.69300842285156
+        },
+        "time": 81.222,
+        "times": [
+          81.222
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      4.778,
+      23.889,
+      43,
+      62.111,
+      81.222
+    ],
+    "checked": 107,
+    "passed": 97
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

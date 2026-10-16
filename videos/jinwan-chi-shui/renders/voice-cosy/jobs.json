@@ -1,0 +1,133 @@
+[
+ {
+  "id": "O1",
+  "text": "晚上好！今晚想吃点什么？说个感觉就行。",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_orb.wav",
+  "mode": "zero_shot",
+  "speed": 1.1,
+  "prompt_text": "晚上好呀，我是你的选餐助手。今晚想吃点什么，随便说说就行。"
+ },
+ {
+  "id": "O2a",
+  "text": "收到！两个人，有氛围，三公里内。",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_orb.wav",
+  "mode": "zero_shot",
+  "speed": 1.1,
+  "prompt_text": "晚上好呀，我是你的选餐助手。今晚想吃点什么，随便说说就行。"
+ },
+ {
+  "id": "O2b",
+  "text": "我挑了三家，让他们自己来说！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_orb.wav",
+  "mode": "zero_shot",
+  "speed": 1.1,
+  "prompt_text": "晚上好呀，我是你的选餐助手。今晚想吃点什么，随便说说就行。"
+ },
+ {
+  "id": "R1",
+  "text": "来我屋头嘛！正宗川菜，麻辣鲜香，人均才八十五！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_rong.wav",
+  "mode": "instruct",
+  "speed": 1.2,
+  "instruct": "请用四川话表达。"
+ },
+ {
+  "id": "H1",
+  "text": "辣到个嘴都肿晒，仲点拍拖啊？嚟饮早茶啦，老火汤煲足四个钟！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_hua.wav",
+  "mode": "instruct",
+  "speed": 1.25,
+  "instruct": "请用广东话表达。"
+ },
+ {
+  "id": "R2",
+  "text": "四个钟？等你汤好，人都饿晕了！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_rong.wav",
+  "mode": "instruct",
+  "speed": 1.2,
+  "instruct": "请用四川话表达。"
+ },
+ {
+  "id": "P0",
+  "text": "Mon Dieu…",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_pierre.wav",
+  "mode": "cross",
+  "speed": 1.3
+ },
+ {
+  "id": "P1",
+  "text": "你们太吵了。烛光，红酒，七道菜，这才叫浪漫。",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_pierre.wav",
+  "mode": "cross",
+  "speed": 1.3
+ },
+ {
+  "id": "H2",
+  "text": "七道菜？人均八百八，食完要食成个月公仔面喎！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_hua.wav",
+  "mode": "instruct",
+  "speed": 1.25,
+  "instruct": "请用广东话表达。"
+ },
+ {
+  "id": "P2",
+  "text": "那、那是周末！工作日套餐，只要一百九十八！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_pierre.wav",
+  "mode": "cross",
+  "speed": 1.3
+ },
+ {
+  "id": "R3",
+  "text": "他那个牛排三分熟，切开还在喊妈妈咧！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_rong.wav",
+  "mode": "instruct",
+  "speed": 1.2,
+  "instruct": "请用四川话表达。"
+ },
+ {
+  "id": "P3",
+  "text": "那叫艺术！你不懂！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_pierre.wav",
+  "mode": "cross",
+  "speed": 1.3
+ },
+ {
+  "id": "O3",
+  "text": "我发现，你在烛光和麻辣上停留最久。今晚是约会，又馋辣？",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_orb.wav",
+  "mode": "zero_shot",
+  "speed": 1.1,
+  "prompt_text": "晚上好呀，我是你的选餐助手。今晚想吃点什么，随便说说就行。"
+ },
+ {
+  "id": "R4",
+  "text": "约会？我们有露台包间，鸳鸯锅，不辣也巴适！",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_rong.wav",
+  "mode": "instruct",
+  "speed": 1.2,
+  "instruct": "请用四川话表达。"
+ },
+ {
+  "id": "H3",
+  "text": "啧，又畀佢抢先咗。",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_hua.wav",
+  "mode": "instruct",
+  "speed": 1.25,
+  "instruct": "请用广东话表达。"
+ },
+ {
+  "id": "P4",
+  "text": "Bon appétit !",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_pierre.wav",
+  "mode": "cross",
+  "speed": 1.3
+ },
+ {
+  "id": "O4",
+  "text": "已为你预订：巴适川菜，今晚七点半，露台包间。",
+  "prompt_wav": "/Users/bryan/Documents/project/hackerthon/videos/jinwan-chi-shui/renders/voice-test/omni/ref_orb.wav",
+  "mode": "zero_shot",
+  "speed": 1.1,
+  "prompt_text": "晚上好呀，我是你的选餐助手。今晚想吃点什么，随便说说就行。"
+ }
+]
